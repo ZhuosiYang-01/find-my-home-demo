@@ -1,0 +1,6437 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-11-05T00:21:11.683Z",
+  "source": "OpenStreetMap via Overpass API",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "osmBaseTimestamp": "2026-11-05T00:19:35Z",
+  "bounds": {
+    "west": -75.225,
+    "south": 39.94,
+    "east": -75.18,
+    "north": 39.975
+  },
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0",
+  "licenseURL": "https://www.openstreetmap.org/copyright",
+  "query": "[out:json][timeout:60];(\n  nwr[shop~\"^(supermarket|convenience|greengrocer)$\"](39.94,-75.225,39.975,-75.18);\n  nwr[amenity=pharmacy](39.94,-75.225,39.975,-75.18);\n  nwr[leisure=park](39.94,-75.225,39.975,-75.18);\n  nwr[leisure=fitness_centre](39.94,-75.225,39.975,-75.18);\n  nwr[highway=bus_stop](39.94,-75.225,39.975,-75.18);\n  nwr[railway~\"^(station|tram_stop|subway_entrance)$\"](39.94,-75.225,39.975,-75.18);\n  nwr[public_transport~\"^(station|platform)$\"](39.94,-75.225,39.975,-75.18);\n);out center tags;",
+  "rawElementCount": 433,
+  "omittedUnnamed": 80,
+  "counts": {
+    "grocery": 44,
+    "pharmacy": 8,
+    "park": 47,
+    "gym": 10,
+    "transit": 109
+  },
+  "limitations": [
+    "Community-maintained snapshot, not a complete or verified inventory.",
+    "Area features use bounding-box centers, not verified entrances.",
+    "Named features only; unnamed stops and facilities are omitted.",
+    "Nearby platforms or stops can describe different directions at the same station.",
+    "Coordinates do not establish opening hours, public access, current operation, or walking time."
+  ],
+  "pois": [
+    {
+      "id": "osm-node-2119806338",
+      "name": "46 Mini Mart",
+      "category": "grocery",
+      "lng": -75.2097363,
+      "lat": 39.9442384,
+      "coordinates": [
+        -75.2097363,
+        39.9442384
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2119806338",
+          "url": "https://www.openstreetmap.org/node/2119806338"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-1665436766",
+      "name": "7-Eleven",
+      "category": "grocery",
+      "lng": -75.1921187,
+      "lat": 39.9557291,
+      "coordinates": [
+        -75.1921187,
+        39.9557291
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/1665436766",
+          "url": "https://www.openstreetmap.org/node/1665436766"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "3440 Market Street",
+      "website": "https://www.7-eleven.com/locations/pa/philadelphia/3440-market-st-35020",
+      "openingHours": "24/7",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-12537580014",
+      "name": "7-Eleven",
+      "category": "grocery",
+      "lng": -75.2142011,
+      "lat": 39.9559321,
+      "coordinates": [
+        -75.2142011,
+        39.9559321
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/12537580014",
+          "url": "https://www.openstreetmap.org/node/12537580014"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-344740402",
+      "name": "7-Eleven",
+      "category": "grocery",
+      "lng": -75.1913601,
+      "lat": 39.9576728,
+      "coordinates": [
+        -75.1913601,
+        39.9576728
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/344740402",
+          "url": "https://www.openstreetmap.org/way/344740402"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "3401 Lancaster Avenue",
+      "website": "https://www.7-eleven.com/locations/pa/philadelphia/3401-lancaster-avenue-22479",
+      "openingHours": "24/7",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-474961420",
+      "name": "7-Eleven",
+      "category": "grocery",
+      "lng": -75.2067402,
+      "lat": 39.954908,
+      "coordinates": [
+        -75.2067402,
+        39.954908
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/474961420",
+          "url": "https://www.openstreetmap.org/way/474961420"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "4201-59 Walnut Street",
+      "website": "https://www.7-eleven.com/locations/pa/philadelphia/4201-59-walnut-street-20530",
+      "openingHours": "24/7",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-372834655",
+      "name": "8 Brothers",
+      "category": "grocery",
+      "lng": -75.2130767,
+      "lat": 39.9695796,
+      "coordinates": [
+        -75.2130767,
+        39.9695796
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/372834655",
+          "url": "https://www.openstreetmap.org/way/372834655"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "4500 Lancaster Avenue",
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6618653505",
+      "name": "A&J Mini Market",
+      "category": "grocery",
+      "lng": -75.2178505,
+      "lat": 39.9690282,
+      "coordinates": [
+        -75.2178505,
+        39.9690282
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6618653505",
+          "url": "https://www.openstreetmap.org/node/6618653505"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-9995193085",
+      "name": "Acme",
+      "category": "grocery",
+      "lng": -75.2028208,
+      "lat": 39.9544621,
+      "coordinates": [
+        -75.2028208,
+        39.9544621
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/9995193085",
+          "url": "https://www.openstreetmap.org/node/9995193085"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "4001 Walnut Street",
+      "website": "https://local.acmemarkets.com/pa/philadelphia/4001-walnut-st.html",
+      "openingHours": "Mo-Su 07:00-23:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-2132923251",
+      "name": "African Grocery Inc.",
+      "category": "grocery",
+      "lng": -75.2136911,
+      "lat": 39.9491118,
+      "coordinates": [
+        -75.2136911,
+        39.9491118
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2132923251",
+          "url": "https://www.openstreetmap.org/node/2132923251"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-743205234",
+      "name": "Aldi",
+      "category": "grocery",
+      "lng": -75.213028,
+      "lat": 39.959295,
+      "coordinates": [
+        -75.213028,
+        39.959295
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/743205234",
+          "url": "https://www.openstreetmap.org/way/743205234"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "4421 Market Street",
+      "website": "https://stores.aldi.us/pa/philadelphia/4421-market-street",
+      "openingHours": "08:30-20:00; Jul 04 08:30-16:00",
+      "operator": "Aldi",
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-1091278771",
+      "name": "Alrayyan Food Market",
+      "category": "grocery",
+      "lng": -75.208366,
+      "lat": 39.9554502,
+      "coordinates": [
+        -75.208366,
+        39.9554502
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/1091278771",
+          "url": "https://www.openstreetmap.org/way/1091278771"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "121 South 43rd Street",
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-1355671042",
+      "name": "APlus",
+      "category": "grocery",
+      "lng": -75.2132004,
+      "lat": 39.9486993,
+      "coordinates": [
+        -75.2132004,
+        39.9486993
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/1355671042",
+          "url": "https://www.openstreetmap.org/way/1355671042"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "4500 Baltimore Avenue",
+      "website": null,
+      "openingHours": null,
+      "operator": "Sunoco",
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-9442843701",
+      "name": "Christian street market",
+      "category": "grocery",
+      "lng": -75.1807539,
+      "lat": 39.9420032,
+      "coordinates": [
+        -75.1807539,
+        39.9420032
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/9442843701",
+          "url": "https://www.openstreetmap.org/node/9442843701"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-4635978537",
+      "name": "Eight Brothers",
+      "category": "grocery",
+      "lng": -75.2027073,
+      "lat": 39.9629562,
+      "coordinates": [
+        -75.2027073,
+        39.9629562
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/4635978537",
+          "url": "https://www.openstreetmap.org/node/4635978537"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-1353744785",
+      "name": "Five Star Deli",
+      "category": "grocery",
+      "lng": -75.2074551,
+      "lat": 39.9482044,
+      "coordinates": [
+        -75.2074551,
+        39.9482044
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/1353744785",
+          "url": "https://www.openstreetmap.org/way/1353744785"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "4204 Chester Avenue",
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-5589359995",
+      "name": "Fu Wah",
+      "category": "grocery",
+      "lng": -75.2169852,
+      "lat": 39.9483552,
+      "coordinates": [
+        -75.2169852,
+        39.9483552
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/5589359995",
+          "url": "https://www.openstreetmap.org/node/5589359995"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "South 47th Street",
+      "website": "https://www.fuwahminimarket.com/menu",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6677737939",
+      "name": "Giant",
+      "category": "grocery",
+      "lng": -75.1919094,
+      "lat": 39.954824,
+      "coordinates": [
+        -75.1919094,
+        39.954824
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6677737939",
+          "url": "https://www.openstreetmap.org/node/6677737939"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "3401 Chestnut Street",
+      "website": "https://stores.giantfoodstores.com/pa/philadelphia/3401-chestnut-street",
+      "openingHours": "07:00-22:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6680703345",
+      "name": "Giant",
+      "category": "grocery",
+      "lng": -75.1805655,
+      "lat": 39.9448293,
+      "coordinates": [
+        -75.1805655,
+        39.9448293
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6680703345",
+          "url": "https://www.openstreetmap.org/node/6680703345"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "2303 Bainbridge Street",
+      "website": "https://www.heirloommarket.com/",
+      "openingHours": "Mo-Su 07:00-22:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6741973498",
+      "name": "Girard Food Market",
+      "category": "grocery",
+      "lng": -75.2089936,
+      "lat": 39.9733286,
+      "coordinates": [
+        -75.2089936,
+        39.9733286
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6741973498",
+          "url": "https://www.openstreetmap.org/node/6741973498"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6741973499",
+      "name": "Girard Neighborhood Food Market",
+      "category": "grocery",
+      "lng": -75.2062422,
+      "lat": 39.9736796,
+      "coordinates": [
+        -75.2062422,
+        39.9736796
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6741973499",
+          "url": "https://www.openstreetmap.org/node/6741973499"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-12229802254",
+      "name": "Grocery Outlet",
+      "category": "grocery",
+      "lng": -75.2090242,
+      "lat": 39.9566164,
+      "coordinates": [
+        -75.2090242,
+        39.9566164
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/12229802254",
+          "url": "https://www.openstreetmap.org/node/12229802254"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "4301 Chestnut Street",
+      "website": "https://www.groceryoutlet.com/circulars/storeid/744",
+      "openingHours": "Mo-Su 08:00-21:00",
+      "operator": "Jaelyn Deas",
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-474961590",
+      "name": "International Food & Spices",
+      "category": "grocery",
+      "lng": -75.2069563,
+      "lat": 39.9549344,
+      "coordinates": [
+        -75.2069563,
+        39.9549344
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/474961590",
+          "url": "https://www.openstreetmap.org/way/474961590"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "4203 Walnut Street",
+      "website": "https://m.facebook.com/intlfoodsandspices/",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-5589335551",
+      "name": "Jennifer Grocery",
+      "category": "grocery",
+      "lng": -75.2165536,
+      "lat": 39.9443636,
+      "coordinates": [
+        -75.2165536,
+        39.9443636
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/5589335551",
+          "url": "https://www.openstreetmap.org/node/5589335551"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-12290070938",
+      "name": "Locust Walk Fruit Stand",
+      "category": "grocery",
+      "lng": -75.2024501,
+      "lat": 39.9528837,
+      "coordinates": [
+        -75.2024501,
+        39.9528837
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/12290070938",
+          "url": "https://www.openstreetmap.org/node/12290070938"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "greengrocer",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-474960613",
+      "name": "Makkah Market",
+      "category": "grocery",
+      "lng": -75.2084754,
+      "lat": 39.955087,
+      "coordinates": [
+        -75.2084754,
+        39.955087
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/474960613",
+          "url": "https://www.openstreetmap.org/way/474960613"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "4249 Walnut Street",
+      "website": "https://www.makkahmarketpa.com/",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6741973530",
+      "name": "Maple Deli",
+      "category": "grocery",
+      "lng": -75.2197819,
+      "lat": 39.9740397,
+      "coordinates": [
+        -75.2197819,
+        39.9740397
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6741973530",
+          "url": "https://www.openstreetmap.org/node/6741973530"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-127091134",
+      "name": "Mariposa Food Co-Op",
+      "category": "grocery",
+      "lng": -75.2206408,
+      "lat": 39.9479798,
+      "coordinates": [
+        -75.2206408,
+        39.9479798
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/127091134",
+          "url": "https://www.openstreetmap.org/way/127091134"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "4824 Baltimore Avenue",
+      "website": "https://mariposa.coop/",
+      "openingHours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-21:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-452087317",
+      "name": "Martinez Grocery",
+      "category": "grocery",
+      "lng": -75.2019227,
+      "lat": 39.960533,
+      "coordinates": [
+        -75.2019227,
+        39.960533
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/452087317",
+          "url": "https://www.openstreetmap.org/way/452087317"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "401 North 40th Street",
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-666303125",
+      "name": "Northside Market",
+      "category": "grocery",
+      "lng": -75.1903547,
+      "lat": 39.9589394,
+      "coordinates": [
+        -75.1903547,
+        39.9589394
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/666303125",
+          "url": "https://www.openstreetmap.org/node/666303125"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "3351 Race Street",
+      "website": null,
+      "openingHours": "Mo-Fr 10:00-01:00;Sa,Su 08:00-01:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-5633016069",
+      "name": "Old Nelson",
+      "category": "grocery",
+      "lng": -75.1919299,
+      "lat": 39.9575184,
+      "coordinates": [
+        -75.1919299,
+        39.9575184
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/5633016069",
+          "url": "https://www.openstreetmap.org/node/5633016069"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "3438-3448 Lancaster Avenue",
+      "website": "https://www.oldnelsonfood.com",
+      "openingHours": "Mo-Sa 08:00-22:00; Su 09:00-21:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-12272528801",
+      "name": "Old Nelson",
+      "category": "grocery",
+      "lng": -75.194399,
+      "lat": 39.9560454,
+      "coordinates": [
+        -75.194399,
+        39.9560454
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/12272528801",
+          "url": "https://www.openstreetmap.org/node/12272528801"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "3600 Market Street",
+      "website": "https://www.oldnelsonfood.com",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-13588696140",
+      "name": "Old Nelson Food Company",
+      "category": "grocery",
+      "lng": -75.1844973,
+      "lat": 39.9547915,
+      "coordinates": [
+        -75.1844973,
+        39.9547915
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/13588696140",
+          "url": "https://www.openstreetmap.org/node/13588696140"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": "Mo-Fr 07:00-20:00; Sa 08:00-20:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-13588696142",
+      "name": "Old Nelson Food Company",
+      "category": "grocery",
+      "lng": -75.183769,
+      "lat": 39.9525703,
+      "coordinates": [
+        -75.183769,
+        39.9525703
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/13588696142",
+          "url": "https://www.openstreetmap.org/node/13588696142"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 09:00-19:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-2151219109",
+      "name": "One Stop Fresh Deli",
+      "category": "grocery",
+      "lng": -75.2208247,
+      "lat": 39.9480488,
+      "coordinates": [
+        -75.2208247,
+        39.9480488
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2151219109",
+          "url": "https://www.openstreetmap.org/node/2151219109"
+        },
+        {
+          "id": "way/700187068",
+          "url": "https://www.openstreetmap.org/way/700187068"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-584783621",
+      "name": "Salt and Pepper Deli",
+      "category": "grocery",
+      "lng": -75.2137475,
+      "lat": 39.945582,
+      "coordinates": [
+        -75.2137475,
+        39.945582
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/584783621",
+          "url": "https://www.openstreetmap.org/way/584783621"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "South 47th Street",
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-13852311406",
+      "name": "Spunky Convenience",
+      "category": "grocery",
+      "lng": -75.1850168,
+      "lat": 39.9746429,
+      "coordinates": [
+        -75.1850168,
+        39.9746429
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/13852311406",
+          "url": "https://www.openstreetmap.org/node/13852311406"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "2948 West Girard Avenue",
+      "website": null,
+      "openingHours": "24/7",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-5524132472",
+      "name": "Sunshine Food Market",
+      "category": "grocery",
+      "lng": -75.2096208,
+      "lat": 39.9679233,
+      "coordinates": [
+        -75.2096208,
+        39.9679233
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/5524132472",
+          "url": "https://www.openstreetmap.org/node/5524132472"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "4261 Lancaster Avenue",
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-191636235",
+      "name": "Supremo Foodmarket",
+      "category": "grocery",
+      "lng": -75.2091346,
+      "lat": 39.9552382,
+      "coordinates": [
+        -75.2091346,
+        39.9552382
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/191636235",
+          "url": "https://www.openstreetmap.org/way/191636235"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": "4301 Walnut Street",
+      "website": "https://www.supremofoods.com/",
+      "openingHours": "Mo-Sa 07:00-23:00; Su 07:00-22:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6666338233",
+      "name": "The Fresh Grocer",
+      "category": "grocery",
+      "lng": -75.193333,
+      "lat": 39.9402188,
+      "coordinates": [
+        -75.193333,
+        39.9402188
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6666338233",
+          "url": "https://www.openstreetmap.org/node/6666338233"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "supermarket",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-2175209727",
+      "name": "Waldy Mini Market",
+      "category": "grocery",
+      "lng": -75.2177188,
+      "lat": 39.9453695,
+      "coordinates": [
+        -75.2177188,
+        39.9453695
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2175209727",
+          "url": "https://www.openstreetmap.org/node/2175209727"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-10983283175",
+      "name": "Wallies Food Inc.",
+      "category": "grocery",
+      "lng": -75.1887614,
+      "lat": 39.9633842,
+      "coordinates": [
+        -75.1887614,
+        39.9633842
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/10983283175",
+          "url": "https://www.openstreetmap.org/node/10983283175"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "3201 Spring Garden Street",
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-2700422417",
+      "name": "Wawa",
+      "category": "grocery",
+      "lng": -75.1949278,
+      "lat": 39.9545647,
+      "coordinates": [
+        -75.1949278,
+        39.9545647
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2700422417",
+          "url": "https://www.openstreetmap.org/node/2700422417"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-3271920514",
+      "name": "Wawa",
+      "category": "grocery",
+      "lng": -75.1990178,
+      "lat": 39.9511076,
+      "coordinates": [
+        -75.1990178,
+        39.9511076
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/3271920514",
+          "url": "https://www.openstreetmap.org/node/3271920514"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-2164632007",
+      "name": "Welcome Snacks",
+      "category": "grocery",
+      "lng": -75.2155859,
+      "lat": 39.9486492,
+      "coordinates": [
+        -75.2155859,
+        39.9486492
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2164632007",
+          "url": "https://www.openstreetmap.org/node/2164632007"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "convenience",
+      "address": "4612 Baltimore Avenue",
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-10593793355",
+      "name": "8 Limbs Academy",
+      "category": "gym",
+      "lng": -75.224221,
+      "lat": 39.9562722,
+      "coordinates": [
+        -75.224221,
+        39.9562722
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/10593793355",
+          "url": "https://www.openstreetmap.org/node/10593793355"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": "5111 Chancellor Street",
+      "website": "https://8limbsacademy.com",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-11018100444",
+      "name": "Drexel Recreation Center",
+      "category": "gym",
+      "lng": -75.1898855,
+      "lat": 39.9559861,
+      "coordinates": [
+        -75.1898855,
+        39.9559861
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/11018100444",
+          "url": "https://www.openstreetmap.org/node/11018100444"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": "3301 Market Street",
+      "website": "https://drexel.edu/recathletics/",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-1255447611",
+      "name": "Everybody Movement & Wellness",
+      "category": "gym",
+      "lng": -75.2095797,
+      "lat": 39.9540337,
+      "coordinates": [
+        -75.2095797,
+        39.9540337
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/1255447611",
+          "url": "https://www.openstreetmap.org/way/1255447611"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": "4305 Locust Street",
+      "website": "https://www.everybodymovesphilly.com",
+      "openingHours": "Mo-Su 08:00-20:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-7010516251",
+      "name": "Hutchinson Gymnasium",
+      "category": "gym",
+      "lng": -75.1887295,
+      "lat": 39.9509255,
+      "coordinates": [
+        -75.1887295,
+        39.9509255
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7010516251",
+          "url": "https://www.openstreetmap.org/node/7010516251"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-8139875094",
+      "name": "James Shuler Memorial Boxing Gym",
+      "category": "gym",
+      "lng": -75.2083588,
+      "lat": 39.9660792,
+      "coordinates": [
+        -75.2083588,
+        39.9660792
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/8139875094",
+          "url": "https://www.openstreetmap.org/node/8139875094"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": "750 Brooklyn Street",
+      "website": "https://www.jamesshulerboxing.com/",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-3527098193",
+      "name": "Monarch Yoga",
+      "category": "gym",
+      "lng": -75.1931992,
+      "lat": 39.9530688,
+      "coordinates": [
+        -75.1931992,
+        39.9530688
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/3527098193",
+          "url": "https://www.openstreetmap.org/node/3527098193"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": "3421 Walnut Street",
+      "website": "https://www.monarch-yoga.com/",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-35918075",
+      "name": "Pottruck Health and Fitness Center",
+      "category": "gym",
+      "lng": -75.1971166,
+      "lat": 39.9538427,
+      "coordinates": [
+        -75.1971166,
+        39.9538427
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/35918075",
+          "url": "https://www.openstreetmap.org/way/35918075"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": "3701 Walnut Street",
+      "website": "https://facilities.upenn.edu/maps/locations/pottruck-health-and-fitness-center-david",
+      "openingHours": "Mo-Th 06:00-23:30; Fr 06:00-22:00; Sa 08:00-20:00; Su 09:00-20:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-7010516236",
+      "name": "Ringe Squash Court",
+      "category": "gym",
+      "lng": -75.1888046,
+      "lat": 39.9505939,
+      "coordinates": [
+        -75.1888046,
+        39.9505939
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7010516236",
+          "url": "https://www.openstreetmap.org/node/7010516236"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-12569865264",
+      "name": "Studio 34",
+      "category": "gym",
+      "lng": -75.2136123,
+      "lat": 39.9488766,
+      "coordinates": [
+        -75.2136123,
+        39.9488766
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/12569865264",
+          "url": "https://www.openstreetmap.org/node/12569865264"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": "4522 Baltimore Avenue",
+      "website": "https://www.studio34yoga.com/",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6944020705",
+      "name": "West Philadelphia YMCA",
+      "category": "gym",
+      "lng": -75.2242576,
+      "lat": 39.9581401,
+      "coordinates": [
+        -75.2242576,
+        39.9581401
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6944020705",
+          "url": "https://www.openstreetmap.org/node/6944020705"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "fitness_centre",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-753358503",
+      "name": "33rd & Wallace Playground",
+      "category": "park",
+      "lng": -75.1908787,
+      "lat": 39.9650629,
+      "coordinates": [
+        -75.1908787,
+        39.9650629
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/753358503",
+          "url": "https://www.openstreetmap.org/way/753358503"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-750567255",
+      "name": "37th and Mt. Vernon Playground",
+      "category": "park",
+      "lng": -75.1964847,
+      "lat": 39.9639734,
+      "coordinates": [
+        -75.1964847,
+        39.9639734
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/750567255",
+          "url": "https://www.openstreetmap.org/way/750567255"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-753388671",
+      "name": "39th and Olive Playground",
+      "category": "park",
+      "lng": -75.2009335,
+      "lat": 39.9659516,
+      "coordinates": [
+        -75.2009335,
+        39.9659516
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/753388671",
+          "url": "https://www.openstreetmap.org/way/753388671"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-708556066",
+      "name": "40th St Trolley Portal Gardens",
+      "category": "park",
+      "lng": -75.202792,
+      "lat": 39.9494673,
+      "coordinates": [
+        -75.202792,
+        39.9494673
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/708556066",
+          "url": "https://www.openstreetmap.org/way/708556066"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-708551632",
+      "name": "47th & Grays Ferry Park",
+      "category": "park",
+      "lng": -75.2088197,
+      "lat": 39.9414791,
+      "coordinates": [
+        -75.2088197,
+        39.9414791
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/708551632",
+          "url": "https://www.openstreetmap.org/way/708551632"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-50108070",
+      "name": "48th & Woodland Playground",
+      "category": "park",
+      "lng": -75.2102754,
+      "lat": 39.9418705,
+      "coordinates": [
+        -75.2102754,
+        39.9418705
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/50108070",
+          "url": "https://www.openstreetmap.org/way/50108070"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-741777384",
+      "name": "49th & Spruce Play Lot",
+      "category": "park",
+      "lng": -75.2189998,
+      "lat": 39.9543531,
+      "coordinates": [
+        -75.2189998,
+        39.9543531
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/741777384",
+          "url": "https://www.openstreetmap.org/way/741777384"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-753601708",
+      "name": "Belmont School Playground",
+      "category": "park",
+      "lng": -75.2047675,
+      "lat": 39.966294,
+      "coordinates": [
+        -75.2047675,
+        39.966294
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/753601708",
+          "url": "https://www.openstreetmap.org/way/753601708"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-741777385",
+      "name": "Ben Barkan Park",
+      "category": "park",
+      "lng": -75.2216235,
+      "lat": 39.9538115,
+      "coordinates": [
+        -75.2216235,
+        39.9538115
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/741777385",
+          "url": "https://www.openstreetmap.org/way/741777385"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-148162170",
+      "name": "Blanche Levy Park",
+      "category": "park",
+      "lng": -75.1940734,
+      "lat": 39.9520285,
+      "coordinates": [
+        -75.1940734,
+        39.9520285
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/148162170",
+          "url": "https://www.openstreetmap.org/way/148162170"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-1497931745",
+      "name": "Cat Park",
+      "category": "park",
+      "lng": -75.1892931,
+      "lat": 39.9640036,
+      "coordinates": [
+        -75.1892931,
+        39.9640036
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/1497931745",
+          "url": "https://www.openstreetmap.org/way/1497931745"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "James Weisbrod",
+      "access": "yes",
+      "network": null
+    },
+    {
+      "id": "osm-way-105511051",
+      "name": "Cedar Park",
+      "category": "park",
+      "lng": -75.2225506,
+      "lat": 39.948228,
+      "coordinates": [
+        -75.2225506,
+        39.948228
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/105511051",
+          "url": "https://www.openstreetmap.org/way/105511051"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-220354825",
+      "name": "Cedar Pointe Park",
+      "category": "park",
+      "lng": -75.2153491,
+      "lat": 39.9489365,
+      "coordinates": [
+        -75.2153491,
+        39.9489365
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/220354825",
+          "url": "https://www.openstreetmap.org/way/220354825"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": "yes",
+      "network": null
+    },
+    {
+      "id": "osm-way-515641165",
+      "name": "Cira Green",
+      "category": "park",
+      "lng": -75.1833712,
+      "lat": 39.9526664,
+      "coordinates": [
+        -75.1833712,
+        39.9526664
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/515641165",
+          "url": "https://www.openstreetmap.org/way/515641165"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": "permissive",
+      "network": null
+    },
+    {
+      "id": "osm-way-32121247",
+      "name": "Clara Muhammad Square",
+      "category": "park",
+      "lng": -75.2166836,
+      "lat": 39.9713033,
+      "coordinates": [
+        -75.2166836,
+        39.9713033
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/32121247",
+          "url": "https://www.openstreetmap.org/way/32121247"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-relation-2588200",
+      "name": "Clarence H. Clark Park",
+      "category": "park",
+      "lng": -75.2099354,
+      "lat": 39.9475028,
+      "coordinates": [
+        -75.2099354,
+        39.9475028
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "relation/2588200",
+          "url": "https://www.openstreetmap.org/relation/2588200"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-705043635",
+      "name": "Clayborn and Lewis Playground",
+      "category": "park",
+      "lng": -75.1989614,
+      "lat": 39.9734709,
+      "coordinates": [
+        -75.1989614,
+        39.9734709
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/705043635",
+          "url": "https://www.openstreetmap.org/way/705043635"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-190661733",
+      "name": "Drexel Park",
+      "category": "park",
+      "lng": -75.1876174,
+      "lat": 39.9612172,
+      "coordinates": [
+        -75.1876174,
+        39.9612172
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/190661733",
+          "url": "https://www.openstreetmap.org/way/190661733"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-753805209",
+      "name": "East Parkside Tot Lot",
+      "category": "park",
+      "lng": -75.2065506,
+      "lat": 39.9728377,
+      "coordinates": [
+        -75.2065506,
+        39.9728377
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/753805209",
+          "url": "https://www.openstreetmap.org/way/753805209"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-865756674",
+      "name": "Esplanade",
+      "category": "park",
+      "lng": -75.1833183,
+      "lat": 39.9652212,
+      "coordinates": [
+        -75.1833183,
+        39.9652212
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/865756674",
+          "url": "https://www.openstreetmap.org/way/865756674"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Maintained by Philadelphia Parks & Recreation;part of Fairmount Park.",
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-753388668",
+      "name": "Fairmond Ave Park West",
+      "category": "park",
+      "lng": -75.1977687,
+      "lat": 39.9659108,
+      "coordinates": [
+        -75.1977687,
+        39.9659108
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/753388668",
+          "url": "https://www.openstreetmap.org/way/753388668"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-946954145",
+      "name": "God is Great Park",
+      "category": "park",
+      "lng": -75.206438,
+      "lat": 39.9700163,
+      "coordinates": [
+        -75.206438,
+        39.9700163
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/946954145",
+          "url": "https://www.openstreetmap.org/way/946954145"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-864023846",
+      "name": "Grays Ferry Crescent Trail Park",
+      "category": "park",
+      "lng": -75.2009342,
+      "lat": 39.941262,
+      "coordinates": [
+        -75.2009342,
+        39.941262
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/864023846",
+          "url": "https://www.openstreetmap.org/way/864023846"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-748810756",
+      "name": "Hamilton Field",
+      "category": "park",
+      "lng": -75.2008782,
+      "lat": 39.9526301,
+      "coordinates": [
+        -75.2008782,
+        39.9526301
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/748810756",
+          "url": "https://www.openstreetmap.org/way/748810756"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-32120724",
+      "name": "James G. Kaskey Memorial Park",
+      "category": "park",
+      "lng": -75.198254,
+      "lat": 39.9491299,
+      "coordinates": [
+        -75.198254,
+        39.9491299
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/32120724",
+          "url": "https://www.openstreetmap.org/way/32120724"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-753358501",
+      "name": "James Lee Wright Recreation Center",
+      "category": "park",
+      "lng": -75.1911154,
+      "lat": 39.9638531,
+      "coordinates": [
+        -75.1911154,
+        39.9638531
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/753358501",
+          "url": "https://www.openstreetmap.org/way/753358501"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-50033056",
+      "name": "Kane Park",
+      "category": "park",
+      "lng": -75.1922664,
+      "lat": 39.9500839,
+      "coordinates": [
+        -75.1922664,
+        39.9500839
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/50033056",
+          "url": "https://www.openstreetmap.org/way/50033056"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-743540322",
+      "name": "Kingsessing Park",
+      "category": "park",
+      "lng": -75.2171503,
+      "lat": 39.9427719,
+      "coordinates": [
+        -75.2171503,
+        39.9427719
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/743540322",
+          "url": "https://www.openstreetmap.org/way/743540322"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-743211865",
+      "name": "Lee Park",
+      "category": "park",
+      "lng": -75.2103311,
+      "lat": 39.9616087,
+      "coordinates": [
+        -75.2103311,
+        39.9616087
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/743211865",
+          "url": "https://www.openstreetmap.org/way/743211865"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-789704463",
+      "name": "Lucien E. Blackwell Park",
+      "category": "park",
+      "lng": -75.2147813,
+      "lat": 39.9653423,
+      "coordinates": [
+        -75.2147813,
+        39.9653423
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/789704463",
+          "url": "https://www.openstreetmap.org/way/789704463"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-743205247",
+      "name": "Max Paul Park",
+      "category": "park",
+      "lng": -75.2135572,
+      "lat": 39.958343,
+      "coordinates": [
+        -75.2135572,
+        39.958343
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/743205247",
+          "url": "https://www.openstreetmap.org/way/743205247"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-753388657",
+      "name": "Miles Mack Playground",
+      "category": "park",
+      "lng": -75.1958848,
+      "lat": 39.967614,
+      "coordinates": [
+        -75.1958848,
+        39.967614
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/753388657",
+          "url": "https://www.openstreetmap.org/way/753388657"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-753811302",
+      "name": "Mill Creek Playground",
+      "category": "park",
+      "lng": -75.2159737,
+      "lat": 39.9658302,
+      "coordinates": [
+        -75.2159737,
+        39.9658302
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/753811302",
+          "url": "https://www.openstreetmap.org/way/753811302"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-469216034",
+      "name": "MLK Park",
+      "category": "park",
+      "lng": -75.2022541,
+      "lat": 39.9629801,
+      "coordinates": [
+        -75.2022541,
+        39.9629801
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/469216034",
+          "url": "https://www.openstreetmap.org/way/469216034"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-156109656",
+      "name": "Penn Park",
+      "category": "park",
+      "lng": -75.1868097,
+      "lat": 39.9497126,
+      "coordinates": [
+        -75.1868097,
+        39.9497126
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/156109656",
+          "url": "https://www.openstreetmap.org/way/156109656"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-741777382",
+      "name": "Sansom Street Play Lot",
+      "category": "park",
+      "lng": -75.2157873,
+      "lat": 39.9563494,
+      "coordinates": [
+        -75.2157873,
+        39.9563494
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/741777382",
+          "url": "https://www.openstreetmap.org/way/741777382"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-748881366",
+      "name": "Saunders Park",
+      "category": "park",
+      "lng": -75.1993203,
+      "lat": 39.9600061,
+      "coordinates": [
+        -75.1993203,
+        39.9600061
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/748881366",
+          "url": "https://www.openstreetmap.org/way/748881366"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-274850199",
+      "name": "Schuylkill Banks",
+      "category": "park",
+      "lng": -75.1805376,
+      "lat": 39.9570312,
+      "coordinates": [
+        -75.1805376,
+        39.9570312
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/274850199",
+          "url": "https://www.openstreetmap.org/way/274850199"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-709548763",
+      "name": "Schuylkill Banks",
+      "category": "park",
+      "lng": -75.1861718,
+      "lat": 39.946703,
+      "coordinates": [
+        -75.1861718,
+        39.946703
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/709548763",
+          "url": "https://www.openstreetmap.org/way/709548763"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6621982838",
+      "name": "Schuylkill River Park",
+      "category": "park",
+      "lng": -75.1809995,
+      "lat": 39.9633097,
+      "coordinates": [
+        -75.1809995,
+        39.9633097
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6621982838",
+          "url": "https://www.openstreetmap.org/node/6621982838"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-49914024",
+      "name": "Schuylkill River Park",
+      "category": "park",
+      "lng": -75.1829349,
+      "lat": 39.9484454,
+      "coordinates": [
+        -75.1829349,
+        39.9484454
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/49914024",
+          "url": "https://www.openstreetmap.org/way/49914024"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": "https://www.fsrp.org/",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-85321680",
+      "name": "Shoemaker Green",
+      "category": "park",
+      "lng": -75.1896712,
+      "lat": 39.951146,
+      "coordinates": [
+        -75.1896712,
+        39.951146
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/85321680",
+          "url": "https://www.openstreetmap.org/way/85321680"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-865727861",
+      "name": "South Garden, Fairmount Water Works",
+      "category": "park",
+      "lng": -75.1830217,
+      "lat": 39.9652624,
+      "coordinates": [
+        -75.1830217,
+        39.9652624
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/865727861",
+          "url": "https://www.openstreetmap.org/way/865727861"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Philadelphia Parks & Recreation",
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-743695066",
+      "name": "Spruce Hill Bird Sanctuary",
+      "category": "park",
+      "lng": -75.2125765,
+      "lat": 39.9537278,
+      "coordinates": [
+        -75.2125765,
+        39.9537278
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/743695066",
+          "url": "https://www.openstreetmap.org/way/743695066"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": "sunrise-sunset",
+      "operator": "Spruce Hill Community Association",
+      "access": "permissive",
+      "network": null
+    },
+    {
+      "id": "osm-way-1222051840",
+      "name": "The Lawn at uCity Square",
+      "category": "park",
+      "lng": -75.1960793,
+      "lat": 39.9574439,
+      "coordinates": [
+        -75.1960793,
+        39.9574439
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/1222051840",
+          "url": "https://www.openstreetmap.org/way/1222051840"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-747176475",
+      "name": "West Mill Creek Playground",
+      "category": "park",
+      "lng": -75.2234443,
+      "lat": 39.9677744,
+      "coordinates": [
+        -75.2234443,
+        39.9677744
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/747176475",
+          "url": "https://www.openstreetmap.org/way/747176475"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-relation-18413139",
+      "name": "Woodlands Playground",
+      "category": "park",
+      "lng": -75.2051489,
+      "lat": 39.946294,
+      "coordinates": [
+        -75.2051489,
+        39.946294
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "relation/18413139",
+          "url": "https://www.openstreetmap.org/relation/18413139"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "park",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-way-1255447601",
+      "name": "Aspire Pharmacy",
+      "category": "pharmacy",
+      "lng": -75.209662,
+      "lat": 39.9539866,
+      "coordinates": [
+        -75.209662,
+        39.9539866
+      ],
+      "coordinateType": "bounding_box_center",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "way/1255447601",
+          "url": "https://www.openstreetmap.org/way/1255447601"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "pharmacy",
+      "address": "4307 Locust Street",
+      "website": "https://aspirerxcares.com/",
+      "openingHours": "Mo 09:00-15:00; Tu-Fr 09:00-19:00; Sa 10:00-15:00; Su off",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6610166213",
+      "name": "Best Care Pharmacy",
+      "category": "pharmacy",
+      "lng": -75.2243371,
+      "lat": 39.9647146,
+      "coordinates": [
+        -75.2243371,
+        39.9647146
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6610166213",
+          "url": "https://www.openstreetmap.org/node/6610166213"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "pharmacy",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-2106552031",
+      "name": "CVS Pharmacy",
+      "category": "pharmacy",
+      "lng": -75.2019581,
+      "lat": 39.9541781,
+      "coordinates": [
+        -75.2019581,
+        39.9541781
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2106552031",
+          "url": "https://www.openstreetmap.org/node/2106552031"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "pharmacy",
+      "address": "3925 Walnut Street",
+      "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/3925-walnut-st-philadelphia-pa-19104/storeid=4007",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-3595418884",
+      "name": "CVS Pharmacy",
+      "category": "pharmacy",
+      "lng": -75.1928078,
+      "lat": 39.9531422,
+      "coordinates": [
+        -75.1928078,
+        39.9531422
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/3595418884",
+          "url": "https://www.openstreetmap.org/node/3595418884"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "pharmacy",
+      "address": "3401 Walnut Street",
+      "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/3401-walnut-st-philadelphia-pa-19104/storeid=450",
+      "openingHours": "Mo-Fr 08:00-21:00; Sa,Su 08:30-18:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-6944055411",
+      "name": "CVS Pharmacy",
+      "category": "pharmacy",
+      "lng": -75.2185611,
+      "lat": 39.9596222,
+      "coordinates": [
+        -75.2185611,
+        39.9596222
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6944055411",
+          "url": "https://www.openstreetmap.org/node/6944055411"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "pharmacy",
+      "address": null,
+      "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/4849-market-st-philadelphia-pa-19139/storeid=2704",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-8048039956",
+      "name": "CVS Pharmacy",
+      "category": "pharmacy",
+      "lng": -75.2097358,
+      "lat": 39.9533391,
+      "coordinates": [
+        -75.2097358,
+        39.9533391
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/8048039956",
+          "url": "https://www.openstreetmap.org/node/8048039956"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "pharmacy",
+      "address": null,
+      "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/4314-locust-street-philadelphia-pa-19104/storeid=2755",
+      "openingHours": "Mo-Su 00:00-00:00",
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-2114069949",
+      "name": "Davis Pharmacy",
+      "category": "pharmacy",
+      "lng": -75.2141266,
+      "lat": 39.9490604,
+      "coordinates": [
+        -75.2141266,
+        39.9490604
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2114069949",
+          "url": "https://www.openstreetmap.org/node/2114069949"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "pharmacy",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-10006849491",
+      "name": "Walgreens",
+      "category": "pharmacy",
+      "lng": -75.193818,
+      "lat": 39.9559618,
+      "coordinates": [
+        -75.193818,
+        39.9559618
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/10006849491",
+          "url": "https://www.openstreetmap.org/node/10006849491"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "pharmacy",
+      "address": "3550 Market Street",
+      "website": "https://www.walgreens.com/locator/walgreens-3550+market+st-philadelphia-pa-19104/id=21251",
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-2179184383",
+      "name": "30th Street",
+      "category": "transit",
+      "lng": -75.185099,
+      "lat": 39.9551917,
+      "coordinates": [
+        -75.185099,
+        39.9551917
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/2179184383",
+          "url": "https://www.openstreetmap.org/node/2179184383"
+        },
+        {
+          "id": "node/3514856880",
+          "url": "https://www.openstreetmap.org/node/3514856880"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "subway_entrance",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-5358059677",
+      "name": "30th Street",
+      "category": "transit",
+      "lng": -75.18347,
+      "lat": 39.9550324,
+      "coordinates": [
+        -75.18347,
+        39.9550324
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/5358059677",
+          "url": "https://www.openstreetmap.org/node/5358059677"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-360502734",
+      "name": "33rd Street",
+      "category": "transit",
+      "lng": -75.1889763,
+      "lat": 39.955386,
+      "coordinates": [
+        -75.1889763,
+        39.955386
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/360502734",
+          "url": "https://www.openstreetmap.org/node/360502734"
+        },
+        {
+          "id": "node/7704015326",
+          "url": "https://www.openstreetmap.org/node/7704015326"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "subway_entrance",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-360502807",
+      "name": "34th St",
+      "category": "transit",
+      "lng": -75.1917002,
+      "lat": 39.955785,
+      "coordinates": [
+        -75.1917002,
+        39.955785
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/360502807",
+          "url": "https://www.openstreetmap.org/node/360502807"
+        },
+        {
+          "id": "node/650405842",
+          "url": "https://www.openstreetmap.org/node/650405842"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "subway_entrance",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-360502826",
+      "name": "34th St",
+      "category": "transit",
+      "lng": -75.1912592,
+      "lat": 39.9557341,
+      "coordinates": [
+        -75.1912592,
+        39.9557341
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/360502826",
+          "url": "https://www.openstreetmap.org/node/360502826"
+        },
+        {
+          "id": "node/650405832",
+          "url": "https://www.openstreetmap.org/node/650405832"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "subway_entrance",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-4179747391",
+      "name": "34th Street",
+      "category": "transit",
+      "lng": -75.1914953,
+      "lat": 39.9559238,
+      "coordinates": [
+        -75.1914953,
+        39.9559238
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/4179747391",
+          "url": "https://www.openstreetmap.org/node/4179747391"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-651014199",
+      "name": "36th St",
+      "category": "transit",
+      "lng": -75.1946812,
+      "lat": 39.9540127,
+      "coordinates": [
+        -75.1946812,
+        39.9540127
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/651014199",
+          "url": "https://www.openstreetmap.org/node/651014199"
+        },
+        {
+          "id": "node/651014366",
+          "url": "https://www.openstreetmap.org/node/651014366"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "subway_entrance",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-7704015325",
+      "name": "36th Street",
+      "category": "transit",
+      "lng": -75.1946267,
+      "lat": 39.953932,
+      "coordinates": [
+        -75.1946267,
+        39.953932
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7704015325",
+          "url": "https://www.openstreetmap.org/node/7704015325"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "halt",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807132",
+      "name": "36th Street & Lancaster Avenue",
+      "category": "transit",
+      "lng": -75.1936195,
+      "lat": 39.9583863,
+      "coordinates": [
+        -75.1936195,
+        39.9583863
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807132",
+          "url": "https://www.openstreetmap.org/node/7206807132"
+        },
+        {
+          "id": "node/7206807133",
+          "url": "https://www.openstreetmap.org/node/7206807133"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807136",
+      "name": "36th Street & Market Street",
+      "category": "transit",
+      "lng": -75.1942056,
+      "lat": 39.956336,
+      "coordinates": [
+        -75.1942056,
+        39.956336
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807136",
+          "url": "https://www.openstreetmap.org/node/7206807136"
+        },
+        {
+          "id": "node/7206807138",
+          "url": "https://www.openstreetmap.org/node/7206807138"
+        },
+        {
+          "id": "node/7206807139",
+          "url": "https://www.openstreetmap.org/node/7206807139"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807137",
+      "name": "36th Street & Market Street",
+      "category": "transit",
+      "lng": -75.1941144,
+      "lat": 39.9560189,
+      "coordinates": [
+        -75.1941144,
+        39.9560189
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807137",
+          "url": "https://www.openstreetmap.org/node/7206807137"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6551564227",
+      "name": "36th Street Portal",
+      "category": "transit",
+      "lng": -75.19398,
+      "lat": 39.9555482,
+      "coordinates": [
+        -75.19398,
+        39.9555482
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6551564227",
+          "url": "https://www.openstreetmap.org/node/6551564227"
+        },
+        {
+          "id": "node/7192046178",
+          "url": "https://www.openstreetmap.org/node/7192046178"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7704015324",
+      "name": "37th Street",
+      "category": "transit",
+      "lng": -75.1971594,
+      "lat": 39.9510529,
+      "coordinates": [
+        -75.1971594,
+        39.9510529
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7704015324",
+          "url": "https://www.openstreetmap.org/node/7704015324"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "halt",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-5368454825",
+      "name": "37th Street Station",
+      "category": "transit",
+      "lng": -75.1968555,
+      "lat": 39.9510055,
+      "coordinates": [
+        -75.1968555,
+        39.9510055
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/5368454825",
+          "url": "https://www.openstreetmap.org/node/5368454825"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "subway_entrance",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-4488903707",
+      "name": "40th and Baring Stop",
+      "category": "transit",
+      "lng": -75.2021822,
+      "lat": 39.9604971,
+      "coordinates": [
+        -75.2021822,
+        39.9604971
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/4488903707",
+          "url": "https://www.openstreetmap.org/node/4488903707"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Septa",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-5372108003",
+      "name": "40th Street",
+      "category": "transit",
+      "lng": -75.2018813,
+      "lat": 39.9572587,
+      "coordinates": [
+        -75.2018813,
+        39.9572587
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/5372108003",
+          "url": "https://www.openstreetmap.org/node/5372108003"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7204646234",
+      "name": "40th Street & Filbert Street",
+      "category": "transit",
+      "lng": -75.2019235,
+      "lat": 39.9580348,
+      "coordinates": [
+        -75.2019235,
+        39.9580348
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7204646234",
+          "url": "https://www.openstreetmap.org/node/7204646234"
+        },
+        {
+          "id": "node/7204646238",
+          "url": "https://www.openstreetmap.org/node/7204646238"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7204646235",
+      "name": "40th Street & Market Street",
+      "category": "transit",
+      "lng": -75.2020016,
+      "lat": 39.9573689,
+      "coordinates": [
+        -75.2020016,
+        39.9573689
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7204646235",
+          "url": "https://www.openstreetmap.org/node/7204646235"
+        },
+        {
+          "id": "node/7204646237",
+          "url": "https://www.openstreetmap.org/node/7204646237"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-360505781",
+      "name": "40th Street Portal",
+      "category": "transit",
+      "lng": -75.2033693,
+      "lat": 39.9494633,
+      "coordinates": [
+        -75.2033693,
+        39.9494633
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/360505781",
+          "url": "https://www.openstreetmap.org/node/360505781"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7191845699",
+      "name": "40th Street Portal",
+      "category": "transit",
+      "lng": -75.203668,
+      "lat": 39.9491996,
+      "coordinates": [
+        -75.203668,
+        39.9491996
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7191845699",
+          "url": "https://www.openstreetmap.org/node/7191845699"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7191845700",
+      "name": "40th Street Portal",
+      "category": "transit",
+      "lng": -75.2036998,
+      "lat": 39.9497794,
+      "coordinates": [
+        -75.2036998,
+        39.9497794
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7191845700",
+          "url": "https://www.openstreetmap.org/node/7191845700"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-650960111",
+      "name": "46th Street",
+      "category": "transit",
+      "lng": -75.2140058,
+      "lat": 39.9586542,
+      "coordinates": [
+        -75.2140058,
+        39.9586542
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/650960111",
+          "url": "https://www.openstreetmap.org/node/650960111"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-360552272",
+      "name": "49th Street",
+      "category": "transit",
+      "lng": -75.216626,
+      "lat": 39.9435993,
+      "coordinates": [
+        -75.216626,
+        39.9435993
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/360552272",
+          "url": "https://www.openstreetmap.org/node/360552272"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "SEPTA",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871335",
+      "name": "49th Street & Woodland Avenue",
+      "category": "transit",
+      "lng": -75.2124119,
+      "lat": 39.9407992,
+      "coordinates": [
+        -75.2124119,
+        39.9407992
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871335",
+          "url": "https://www.openstreetmap.org/node/7206871335"
+        },
+        {
+          "id": "node/7206871348",
+          "url": "https://www.openstreetmap.org/node/7206871348"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-1685402978",
+      "name": "52nd Street",
+      "category": "transit",
+      "lng": -75.2248623,
+      "lat": 39.9600003,
+      "coordinates": [
+        -75.2248623,
+        39.9600003
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/1685402978",
+          "url": "https://www.openstreetmap.org/node/1685402978"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6596209453",
+      "name": "938",
+      "category": "transit",
+      "lng": -75.213994,
+      "lat": 39.9584002,
+      "coordinates": [
+        -75.213994,
+        39.9584002
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6596209453",
+          "url": "https://www.openstreetmap.org/node/6596209453"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-13772950801",
+      "name": "941",
+      "category": "transit",
+      "lng": -75.214118,
+      "lat": 39.9584108,
+      "coordinates": [
+        -75.214118,
+        39.9584108
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/13772950801",
+          "url": "https://www.openstreetmap.org/node/13772950801"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-1586414619",
+      "name": "Anne d'Harnoncourt Drive & Spring Garden Street",
+      "category": "transit",
+      "lng": -75.1822572,
+      "lat": 39.964711,
+      "coordinates": [
+        -75.1822572,
+        39.964711
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/1586414619",
+          "url": "https://www.openstreetmap.org/node/1586414619"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-7206871356",
+      "name": "Baltimore Avenue & 42nd Street",
+      "category": "transit",
+      "lng": -75.207328,
+      "lat": 39.9497256,
+      "coordinates": [
+        -75.207328,
+        39.9497256
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871356",
+          "url": "https://www.openstreetmap.org/node/7206871356"
+        },
+        {
+          "id": "node/7206871357",
+          "url": "https://www.openstreetmap.org/node/7206871357"
+        },
+        {
+          "id": "node/7206871366",
+          "url": "https://www.openstreetmap.org/node/7206871366"
+        },
+        {
+          "id": "node/7206871367",
+          "url": "https://www.openstreetmap.org/node/7206871367"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592441",
+      "name": "Baltimore Avenue & 43rd Street",
+      "category": "transit",
+      "lng": -75.2094296,
+      "lat": 39.9495152,
+      "coordinates": [
+        -75.2094296,
+        39.9495152
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592441",
+          "url": "https://www.openstreetmap.org/node/7734592441"
+        },
+        {
+          "id": "node/7734592442",
+          "url": "https://www.openstreetmap.org/node/7734592442"
+        },
+        {
+          "id": "node/7734592443",
+          "url": "https://www.openstreetmap.org/node/7734592443"
+        },
+        {
+          "id": "node/7734592444",
+          "url": "https://www.openstreetmap.org/node/7734592444"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592439",
+      "name": "Baltimore Avenue & 44th Street",
+      "category": "transit",
+      "lng": -75.2114563,
+      "lat": 39.9492178,
+      "coordinates": [
+        -75.2114563,
+        39.9492178
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592439",
+          "url": "https://www.openstreetmap.org/node/7734592439"
+        },
+        {
+          "id": "node/7734592440",
+          "url": "https://www.openstreetmap.org/node/7734592440"
+        },
+        {
+          "id": "node/7734592445",
+          "url": "https://www.openstreetmap.org/node/7734592445"
+        },
+        {
+          "id": "node/7734592446",
+          "url": "https://www.openstreetmap.org/node/7734592446"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592437",
+      "name": "Baltimore Avenue & 45th Street",
+      "category": "transit",
+      "lng": -75.2130852,
+      "lat": 39.9490415,
+      "coordinates": [
+        -75.2130852,
+        39.9490415
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592437",
+          "url": "https://www.openstreetmap.org/node/7734592437"
+        },
+        {
+          "id": "node/7734592447",
+          "url": "https://www.openstreetmap.org/node/7734592447"
+        },
+        {
+          "id": "node/7734592448",
+          "url": "https://www.openstreetmap.org/node/7734592448"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592435",
+      "name": "Baltimore Avenue & 46th Street",
+      "category": "transit",
+      "lng": -75.2152358,
+      "lat": 39.9488098,
+      "coordinates": [
+        -75.2152358,
+        39.9488098
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592435",
+          "url": "https://www.openstreetmap.org/node/7734592435"
+        },
+        {
+          "id": "node/7734592449",
+          "url": "https://www.openstreetmap.org/node/7734592449"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592436",
+      "name": "Baltimore Avenue & 46th Street",
+      "category": "transit",
+      "lng": -75.2147834,
+      "lat": 39.9488848,
+      "coordinates": [
+        -75.2147834,
+        39.9488848
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592436",
+          "url": "https://www.openstreetmap.org/node/7734592436"
+        },
+        {
+          "id": "node/7734592450",
+          "url": "https://www.openstreetmap.org/node/7734592450"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592433",
+      "name": "Baltimore Avenue & 47th Street",
+      "category": "transit",
+      "lng": -75.2172234,
+      "lat": 39.9485953,
+      "coordinates": [
+        -75.2172234,
+        39.9485953
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592433",
+          "url": "https://www.openstreetmap.org/node/7734592433"
+        },
+        {
+          "id": "node/7734592434",
+          "url": "https://www.openstreetmap.org/node/7734592434"
+        },
+        {
+          "id": "node/7734592451",
+          "url": "https://www.openstreetmap.org/node/7734592451"
+        },
+        {
+          "id": "node/7734592452",
+          "url": "https://www.openstreetmap.org/node/7734592452"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734599632",
+      "name": "Baltimore Avenue & 48th Street",
+      "category": "transit",
+      "lng": -75.2189827,
+      "lat": 39.948433,
+      "coordinates": [
+        -75.2189827,
+        39.948433
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734599632",
+          "url": "https://www.openstreetmap.org/node/7734599632"
+        },
+        {
+          "id": "node/7734599633",
+          "url": "https://www.openstreetmap.org/node/7734599633"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592431",
+      "name": "Baltimore Avenue & 49th Street",
+      "category": "transit",
+      "lng": -75.2215159,
+      "lat": 39.9481335,
+      "coordinates": [
+        -75.2215159,
+        39.9481335
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592431",
+          "url": "https://www.openstreetmap.org/node/7734592431"
+        },
+        {
+          "id": "node/7734592454",
+          "url": "https://www.openstreetmap.org/node/7734592454"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592432",
+      "name": "Baltimore Avenue & 49th Street",
+      "category": "transit",
+      "lng": -75.2209717,
+      "lat": 39.9482181,
+      "coordinates": [
+        -75.2209717,
+        39.9482181
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592432",
+          "url": "https://www.openstreetmap.org/node/7734592432"
+        },
+        {
+          "id": "node/7734592453",
+          "url": "https://www.openstreetmap.org/node/7734592453"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734592429",
+      "name": "Baltimore Avenue & 50th Street",
+      "category": "transit",
+      "lng": -75.2234409,
+      "lat": 39.9479241,
+      "coordinates": [
+        -75.2234409,
+        39.9479241
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734592429",
+          "url": "https://www.openstreetmap.org/node/7734592429"
+        },
+        {
+          "id": "node/7734592430",
+          "url": "https://www.openstreetmap.org/node/7734592430"
+        },
+        {
+          "id": "node/7734592455",
+          "url": "https://www.openstreetmap.org/node/7734592455"
+        },
+        {
+          "id": "node/7734592456",
+          "url": "https://www.openstreetmap.org/node/7734592456"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7734599634",
+      "name": "Baltimore Avenue & Florence Avenue",
+      "category": "transit",
+      "lng": -75.2194814,
+      "lat": 39.9483515,
+      "coordinates": [
+        -75.2194814,
+        39.9483515
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7734599634",
+          "url": "https://www.openstreetmap.org/node/7734599634"
+        },
+        {
+          "id": "node/7734599635",
+          "url": "https://www.openstreetmap.org/node/7734599635"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871358",
+      "name": "Chester Avenue & 42nd Street",
+      "category": "transit",
+      "lng": -75.207255,
+      "lat": 39.9484126,
+      "coordinates": [
+        -75.207255,
+        39.9484126
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871358",
+          "url": "https://www.openstreetmap.org/node/7206871358"
+        },
+        {
+          "id": "node/7206871359",
+          "url": "https://www.openstreetmap.org/node/7206871359"
+        },
+        {
+          "id": "node/7206871364",
+          "url": "https://www.openstreetmap.org/node/7206871364"
+        },
+        {
+          "id": "node/7206871365",
+          "url": "https://www.openstreetmap.org/node/7206871365"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7735158246",
+      "name": "Chester Avenue & 43rd Street",
+      "category": "transit",
+      "lng": -75.2091939,
+      "lat": 39.9483863,
+      "coordinates": [
+        -75.2091939,
+        39.9483863
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7735158246",
+          "url": "https://www.openstreetmap.org/node/7735158246"
+        },
+        {
+          "id": "node/7735158247",
+          "url": "https://www.openstreetmap.org/node/7735158247"
+        },
+        {
+          "id": "node/7735158248",
+          "url": "https://www.openstreetmap.org/node/7735158248"
+        },
+        {
+          "id": "node/7735158249",
+          "url": "https://www.openstreetmap.org/node/7735158249"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7735158244",
+      "name": "Chester Avenue & 45th Street",
+      "category": "transit",
+      "lng": -75.2114873,
+      "lat": 39.9477128,
+      "coordinates": [
+        -75.2114873,
+        39.9477128
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7735158244",
+          "url": "https://www.openstreetmap.org/node/7735158244"
+        },
+        {
+          "id": "node/7735158245",
+          "url": "https://www.openstreetmap.org/node/7735158245"
+        },
+        {
+          "id": "node/7735158250",
+          "url": "https://www.openstreetmap.org/node/7735158250"
+        },
+        {
+          "id": "node/7735158251",
+          "url": "https://www.openstreetmap.org/node/7735158251"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7735158242",
+      "name": "Chester Avenue & 46th Street",
+      "category": "transit",
+      "lng": -75.212785,
+      "lat": 39.9468013,
+      "coordinates": [
+        -75.212785,
+        39.9468013
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7735158242",
+          "url": "https://www.openstreetmap.org/node/7735158242"
+        },
+        {
+          "id": "node/7735158243",
+          "url": "https://www.openstreetmap.org/node/7735158243"
+        },
+        {
+          "id": "node/7735158252",
+          "url": "https://www.openstreetmap.org/node/7735158252"
+        },
+        {
+          "id": "node/7735158253",
+          "url": "https://www.openstreetmap.org/node/7735158253"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7735158240",
+      "name": "Chester Avenue & 47th Street",
+      "category": "transit",
+      "lng": -75.2140965,
+      "lat": 39.9458854,
+      "coordinates": [
+        -75.2140965,
+        39.9458854
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7735158240",
+          "url": "https://www.openstreetmap.org/node/7735158240"
+        },
+        {
+          "id": "node/7735158241",
+          "url": "https://www.openstreetmap.org/node/7735158241"
+        },
+        {
+          "id": "node/7735158254",
+          "url": "https://www.openstreetmap.org/node/7735158254"
+        },
+        {
+          "id": "node/7735158255",
+          "url": "https://www.openstreetmap.org/node/7735158255"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7735158238",
+      "name": "Chester Avenue & 48th Street",
+      "category": "transit",
+      "lng": -75.2153909,
+      "lat": 39.9449799,
+      "coordinates": [
+        -75.2153909,
+        39.9449799
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7735158238",
+          "url": "https://www.openstreetmap.org/node/7735158238"
+        },
+        {
+          "id": "node/7735158239",
+          "url": "https://www.openstreetmap.org/node/7735158239"
+        },
+        {
+          "id": "node/7735158256",
+          "url": "https://www.openstreetmap.org/node/7735158256"
+        },
+        {
+          "id": "node/7735158257",
+          "url": "https://www.openstreetmap.org/node/7735158257"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7204248603",
+      "name": "Chester Avenue & 49th Street",
+      "category": "transit",
+      "lng": -75.2166616,
+      "lat": 39.9440865,
+      "coordinates": [
+        -75.2166616,
+        39.9440865
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7204248603",
+          "url": "https://www.openstreetmap.org/node/7204248603"
+        },
+        {
+          "id": "node/7735158237",
+          "url": "https://www.openstreetmap.org/node/7735158237"
+        },
+        {
+          "id": "node/7735158258",
+          "url": "https://www.openstreetmap.org/node/7735158258"
+        },
+        {
+          "id": "node/7735158259",
+          "url": "https://www.openstreetmap.org/node/7735158259"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7735158234",
+      "name": "Chester Avenue & 51st Street",
+      "category": "transit",
+      "lng": -75.2191457,
+      "lat": 39.9423232,
+      "coordinates": [
+        -75.2191457,
+        39.9423232
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7735158234",
+          "url": "https://www.openstreetmap.org/node/7735158234"
+        },
+        {
+          "id": "node/7735158235",
+          "url": "https://www.openstreetmap.org/node/7735158235"
+        },
+        {
+          "id": "node/7735158260",
+          "url": "https://www.openstreetmap.org/node/7735158260"
+        },
+        {
+          "id": "node/7735158261",
+          "url": "https://www.openstreetmap.org/node/7735158261"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7735158232",
+      "name": "Chester Avenue & 52nd Street",
+      "category": "transit",
+      "lng": -75.2202614,
+      "lat": 39.941542,
+      "coordinates": [
+        -75.2202614,
+        39.941542
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7735158232",
+          "url": "https://www.openstreetmap.org/node/7735158232"
+        },
+        {
+          "id": "node/7735158233",
+          "url": "https://www.openstreetmap.org/node/7735158233"
+        },
+        {
+          "id": "node/7735158262",
+          "url": "https://www.openstreetmap.org/node/7735158262"
+        },
+        {
+          "id": "node/7735158263",
+          "url": "https://www.openstreetmap.org/node/7735158263"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7735158230",
+      "name": "Chester Avenue & 53rd Street",
+      "category": "transit",
+      "lng": -75.2216405,
+      "lat": 39.940574,
+      "coordinates": [
+        -75.2216405,
+        39.940574
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7735158230",
+          "url": "https://www.openstreetmap.org/node/7735158230"
+        },
+        {
+          "id": "node/7735158231",
+          "url": "https://www.openstreetmap.org/node/7735158231"
+        },
+        {
+          "id": "node/7735158264",
+          "url": "https://www.openstreetmap.org/node/7735158264"
+        },
+        {
+          "id": "node/7735158265",
+          "url": "https://www.openstreetmap.org/node/7735158265"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6598207228",
+      "name": "Girard Avenue & 27th Street",
+      "category": "transit",
+      "lng": -75.1806223,
+      "lat": 39.9741895,
+      "coordinates": [
+        -75.1806223,
+        39.9741895
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6598207228",
+          "url": "https://www.openstreetmap.org/node/6598207228"
+        },
+        {
+          "id": "node/6598207234",
+          "url": "https://www.openstreetmap.org/node/6598207234"
+        },
+        {
+          "id": "node/7732517013",
+          "url": "https://www.openstreetmap.org/node/7732517013"
+        },
+        {
+          "id": "node/7732517014",
+          "url": "https://www.openstreetmap.org/node/7732517014"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6598207241",
+      "name": "Girard Avenue & 28th Street",
+      "category": "transit",
+      "lng": -75.1816812,
+      "lat": 39.9743602,
+      "coordinates": [
+        -75.1816812,
+        39.9743602
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6598207241",
+          "url": "https://www.openstreetmap.org/node/6598207241"
+        },
+        {
+          "id": "node/6598207244",
+          "url": "https://www.openstreetmap.org/node/6598207244"
+        },
+        {
+          "id": "node/7732517015",
+          "url": "https://www.openstreetmap.org/node/7732517015"
+        },
+        {
+          "id": "node/7732517016",
+          "url": "https://www.openstreetmap.org/node/7732517016"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6598207232",
+      "name": "Girard Avenue & 29th Street",
+      "category": "transit",
+      "lng": -75.1832693,
+      "lat": 39.9745646,
+      "coordinates": [
+        -75.1832693,
+        39.9745646
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6598207232",
+          "url": "https://www.openstreetmap.org/node/6598207232"
+        },
+        {
+          "id": "node/7732517017",
+          "url": "https://www.openstreetmap.org/node/7732517017"
+        },
+        {
+          "id": "node/7732517018",
+          "url": "https://www.openstreetmap.org/node/7732517018"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6598207240",
+      "name": "Girard Avenue & 29th Street",
+      "category": "transit",
+      "lng": -75.1837053,
+      "lat": 39.9745864,
+      "coordinates": [
+        -75.1837053,
+        39.9745864
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6598207240",
+          "url": "https://www.openstreetmap.org/node/6598207240"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6598207230",
+      "name": "Girard Avenue & 31st Street",
+      "category": "transit",
+      "lng": -75.1867911,
+      "lat": 39.974988,
+      "coordinates": [
+        -75.1867911,
+        39.974988
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6598207230",
+          "url": "https://www.openstreetmap.org/node/6598207230"
+        },
+        {
+          "id": "node/6598207243",
+          "url": "https://www.openstreetmap.org/node/6598207243"
+        },
+        {
+          "id": "node/7732517019",
+          "url": "https://www.openstreetmap.org/node/7732517019"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-3269911403",
+      "name": "Girard Avenue & 34th Street",
+      "category": "transit",
+      "lng": -75.1968816,
+      "lat": 39.9749442,
+      "coordinates": [
+        -75.1968816,
+        39.9749442
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/3269911403",
+          "url": "https://www.openstreetmap.org/node/3269911403"
+        },
+        {
+          "id": "node/3269911448",
+          "url": "https://www.openstreetmap.org/node/3269911448"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6300403738",
+      "name": "Girard Avenue & 39th Street",
+      "category": "transit",
+      "lng": -75.2018965,
+      "lat": 39.9743813,
+      "coordinates": [
+        -75.2018965,
+        39.9743813
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6300403738",
+          "url": "https://www.openstreetmap.org/node/6300403738"
+        },
+        {
+          "id": "node/6300403743",
+          "url": "https://www.openstreetmap.org/node/6300403743"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-1479292068",
+      "name": "Girard Avenue & 40th Street",
+      "category": "transit",
+      "lng": -75.2046193,
+      "lat": 39.9740838,
+      "coordinates": [
+        -75.2046193,
+        39.9740838
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/1479292068",
+          "url": "https://www.openstreetmap.org/node/1479292068"
+        },
+        {
+          "id": "node/6300403737",
+          "url": "https://www.openstreetmap.org/node/6300403737"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-4524660817",
+      "name": "Girard Avenue & 41st Street",
+      "category": "transit",
+      "lng": -75.2066099,
+      "lat": 39.97386,
+      "coordinates": [
+        -75.2066099,
+        39.97386
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/4524660817",
+          "url": "https://www.openstreetmap.org/node/4524660817"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6300403736",
+      "name": "Girard Avenue & 41st Street",
+      "category": "transit",
+      "lng": -75.2061991,
+      "lat": 39.9739337,
+      "coordinates": [
+        -75.2061991,
+        39.9739337
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6300403736",
+          "url": "https://www.openstreetmap.org/node/6300403736"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-4524660818",
+      "name": "Girard Avenue & 42nd Street",
+      "category": "transit",
+      "lng": -75.2090514,
+      "lat": 39.9735899,
+      "coordinates": [
+        -75.2090514,
+        39.9735899
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/4524660818",
+          "url": "https://www.openstreetmap.org/node/4524660818"
+        },
+        {
+          "id": "node/6300403735",
+          "url": "https://www.openstreetmap.org/node/6300403735"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6618056175",
+      "name": "Girard Avenue & 49th Street",
+      "category": "transit",
+      "lng": -75.2189915,
+      "lat": 39.9729274,
+      "coordinates": [
+        -75.2189915,
+        39.9729274
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6618056175",
+          "url": "https://www.openstreetmap.org/node/6618056175"
+        },
+        {
+          "id": "node/7732517024",
+          "url": "https://www.openstreetmap.org/node/7732517024"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6618056165",
+      "name": "Girard Avenue & 51st Street",
+      "category": "transit",
+      "lng": -75.223788,
+      "lat": 39.9718686,
+      "coordinates": [
+        -75.223788,
+        39.9718686
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6618056165",
+          "url": "https://www.openstreetmap.org/node/6618056165"
+        },
+        {
+          "id": "node/6618056172",
+          "url": "https://www.openstreetmap.org/node/6618056172"
+        },
+        {
+          "id": "node/7732517025",
+          "url": "https://www.openstreetmap.org/node/7732517025"
+        },
+        {
+          "id": "node/7732517026",
+          "url": "https://www.openstreetmap.org/node/7732517026"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-633956243",
+      "name": "Girard Avenue & Belmont Avenue",
+      "category": "transit",
+      "lng": -75.2117667,
+      "lat": 39.973289,
+      "coordinates": [
+        -75.2117667,
+        39.973289
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/633956243",
+          "url": "https://www.openstreetmap.org/node/633956243"
+        },
+        {
+          "id": "node/6300403734",
+          "url": "https://www.openstreetmap.org/node/6300403734"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6618065286",
+      "name": "Girard Avenue & Lancaster Avenue",
+      "category": "transit",
+      "lng": -75.2186537,
+      "lat": 39.9729591,
+      "coordinates": [
+        -75.2186537,
+        39.9729591
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6618065286",
+          "url": "https://www.openstreetmap.org/node/6618065286"
+        },
+        {
+          "id": "node/7732517023",
+          "url": "https://www.openstreetmap.org/node/7732517023"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6598207218",
+      "name": "Girard Avenue & Merion Avenue",
+      "category": "transit",
+      "lng": -75.2161767,
+      "lat": 39.9728308,
+      "coordinates": [
+        -75.2161767,
+        39.9728308
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6598207218",
+          "url": "https://www.openstreetmap.org/node/6598207218"
+        },
+        {
+          "id": "node/6598207219",
+          "url": "https://www.openstreetmap.org/node/6598207219"
+        },
+        {
+          "id": "node/7732517021",
+          "url": "https://www.openstreetmap.org/node/7732517021"
+        },
+        {
+          "id": "node/7732517022",
+          "url": "https://www.openstreetmap.org/node/7732517022"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807134",
+      "name": "Lancaster Avenue & 36th Street",
+      "category": "transit",
+      "lng": -75.1938569,
+      "lat": 39.9586021,
+      "coordinates": [
+        -75.1938569,
+        39.9586021
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807134",
+          "url": "https://www.openstreetmap.org/node/7206807134"
+        },
+        {
+          "id": "node/7206807135",
+          "url": "https://www.openstreetmap.org/node/7206807135"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807113",
+      "name": "Lancaster Avenue & 38th Street",
+      "category": "transit",
+      "lng": -75.1966153,
+      "lat": 39.960218,
+      "coordinates": [
+        -75.1966153,
+        39.960218
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807113",
+          "url": "https://www.openstreetmap.org/node/7206807113"
+        },
+        {
+          "id": "node/7206807131",
+          "url": "https://www.openstreetmap.org/node/7206807131"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807120",
+      "name": "Lancaster Avenue & 38th Street",
+      "category": "transit",
+      "lng": -75.1971682,
+      "lat": 39.9603309,
+      "coordinates": [
+        -75.1971682,
+        39.9603309
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807120",
+          "url": "https://www.openstreetmap.org/node/7206807120"
+        },
+        {
+          "id": "node/7206807130",
+          "url": "https://www.openstreetmap.org/node/7206807130"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807118",
+      "name": "Lancaster Avenue & 40th Street",
+      "category": "transit",
+      "lng": -75.2025879,
+      "lat": 39.9632011,
+      "coordinates": [
+        -75.2025879,
+        39.9632011
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807118",
+          "url": "https://www.openstreetmap.org/node/7206807118"
+        },
+        {
+          "id": "node/7206807124",
+          "url": "https://www.openstreetmap.org/node/7206807124"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807112",
+      "name": "Lancaster Avenue & 41st Street",
+      "category": "transit",
+      "lng": -75.2052574,
+      "lat": 39.9650584,
+      "coordinates": [
+        -75.2052574,
+        39.9650584
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807112",
+          "url": "https://www.openstreetmap.org/node/7206807112"
+        },
+        {
+          "id": "node/7206807127",
+          "url": "https://www.openstreetmap.org/node/7206807127"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807119",
+      "name": "Lancaster Avenue & 41st Street",
+      "category": "transit",
+      "lng": -75.2056981,
+      "lat": 39.9651473,
+      "coordinates": [
+        -75.2056981,
+        39.9651473
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807119",
+          "url": "https://www.openstreetmap.org/node/7206807119"
+        },
+        {
+          "id": "node/7206807126",
+          "url": "https://www.openstreetmap.org/node/7206807126"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732706088",
+      "name": "Lancaster Avenue & 42nd Street",
+      "category": "transit",
+      "lng": -75.2073474,
+      "lat": 39.9662843,
+      "coordinates": [
+        -75.2073474,
+        39.9662843
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732706088",
+          "url": "https://www.openstreetmap.org/node/7732706088"
+        },
+        {
+          "id": "node/7732706091",
+          "url": "https://www.openstreetmap.org/node/7732706091"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732706089",
+      "name": "Lancaster Avenue & 42nd Street",
+      "category": "transit",
+      "lng": -75.2077432,
+      "lat": 39.966494,
+      "coordinates": [
+        -75.2077432,
+        39.966494
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732706089",
+          "url": "https://www.openstreetmap.org/node/7732706089"
+        },
+        {
+          "id": "node/7732706090",
+          "url": "https://www.openstreetmap.org/node/7732706090"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732691182",
+      "name": "Lancaster Avenue & 43rd Street",
+      "category": "transit",
+      "lng": -75.2098692,
+      "lat": 39.9678054,
+      "coordinates": [
+        -75.2098692,
+        39.9678054
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732691182",
+          "url": "https://www.openstreetmap.org/node/7732691182"
+        },
+        {
+          "id": "node/7732691183",
+          "url": "https://www.openstreetmap.org/node/7732691183"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732691184",
+      "name": "Lancaster Avenue & 44th Street",
+      "category": "transit",
+      "lng": -75.2115534,
+      "lat": 39.9688526,
+      "coordinates": [
+        -75.2115534,
+        39.9688526
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732691184",
+          "url": "https://www.openstreetmap.org/node/7732691184"
+        },
+        {
+          "id": "node/7732706085",
+          "url": "https://www.openstreetmap.org/node/7732706085"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732706086",
+      "name": "Lancaster Avenue & 45th Street",
+      "category": "transit",
+      "lng": -75.2129735,
+      "lat": 39.9697241,
+      "coordinates": [
+        -75.2129735,
+        39.9697241
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732706086",
+          "url": "https://www.openstreetmap.org/node/7732706086"
+        },
+        {
+          "id": "node/7732706087",
+          "url": "https://www.openstreetmap.org/node/7732706087"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732706092",
+      "name": "Lancaster Avenue & 47th Street",
+      "category": "transit",
+      "lng": -75.2159858,
+      "lat": 39.9715836,
+      "coordinates": [
+        -75.2159858,
+        39.9715836
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732706092",
+          "url": "https://www.openstreetmap.org/node/7732706092"
+        },
+        {
+          "id": "node/7732706093",
+          "url": "https://www.openstreetmap.org/node/7732706093"
+        },
+        {
+          "id": "node/7732706094",
+          "url": "https://www.openstreetmap.org/node/7732706094"
+        },
+        {
+          "id": "node/7732706095",
+          "url": "https://www.openstreetmap.org/node/7732706095"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732706096",
+      "name": "Lancaster Avenue & 48th Street",
+      "category": "transit",
+      "lng": -75.2170461,
+      "lat": 39.9722221,
+      "coordinates": [
+        -75.2170461,
+        39.9722221
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732706096",
+          "url": "https://www.openstreetmap.org/node/7732706096"
+        },
+        {
+          "id": "node/7732706097",
+          "url": "https://www.openstreetmap.org/node/7732706097"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732706098",
+      "name": "Lancaster Avenue & 49th Street",
+      "category": "transit",
+      "lng": -75.2194316,
+      "lat": 39.9736605,
+      "coordinates": [
+        -75.2194316,
+        39.9736605
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732706098",
+          "url": "https://www.openstreetmap.org/node/7732706098"
+        },
+        {
+          "id": "node/7732706101",
+          "url": "https://www.openstreetmap.org/node/7732706101"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732706099",
+      "name": "Lancaster Avenue & 49th Street",
+      "category": "transit",
+      "lng": -75.2198008,
+      "lat": 39.9738421,
+      "coordinates": [
+        -75.2198008,
+        39.9738421
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732706099",
+          "url": "https://www.openstreetmap.org/node/7732706099"
+        },
+        {
+          "id": "node/7732706100",
+          "url": "https://www.openstreetmap.org/node/7732706100"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732706110",
+      "name": "Lancaster Avenue & Girard Avenue",
+      "category": "transit",
+      "lng": -75.218661,
+      "lat": 39.973155,
+      "coordinates": [
+        -75.218661,
+        39.973155
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732706110",
+          "url": "https://www.openstreetmap.org/node/7732706110"
+        },
+        {
+          "id": "node/7732706111",
+          "url": "https://www.openstreetmap.org/node/7732706111"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807114",
+      "name": "Lancaster Avenue & Haverford Avenue",
+      "category": "transit",
+      "lng": -75.20164,
+      "lat": 39.9628366,
+      "coordinates": [
+        -75.20164,
+        39.9628366
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807114",
+          "url": "https://www.openstreetmap.org/node/7206807114"
+        },
+        {
+          "id": "node/7206807123",
+          "url": "https://www.openstreetmap.org/node/7206807123"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732691178",
+      "name": "Lancaster Avenue & Ogden Street",
+      "category": "transit",
+      "lng": -75.2109295,
+      "lat": 39.9685038,
+      "coordinates": [
+        -75.2109295,
+        39.9685038
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732691178",
+          "url": "https://www.openstreetmap.org/node/7732691178"
+        },
+        {
+          "id": "node/7732691179",
+          "url": "https://www.openstreetmap.org/node/7732691179"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732691180",
+      "name": "Lancaster Avenue & Parrish Street",
+      "category": "transit",
+      "lng": -75.2094669,
+      "lat": 39.967596,
+      "coordinates": [
+        -75.2094669,
+        39.967596
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732691180",
+          "url": "https://www.openstreetmap.org/node/7732691180"
+        },
+        {
+          "id": "node/7732691181",
+          "url": "https://www.openstreetmap.org/node/7732691181"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807115",
+      "name": "Lancaster Avenue & Powelton Avenue",
+      "category": "transit",
+      "lng": -75.1954124,
+      "lat": 39.9595915,
+      "coordinates": [
+        -75.1954124,
+        39.9595915
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807115",
+          "url": "https://www.openstreetmap.org/node/7206807115"
+        },
+        {
+          "id": "node/7206807125",
+          "url": "https://www.openstreetmap.org/node/7206807125"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807117",
+      "name": "Lancaster Avenue & Spring Garden Street",
+      "category": "transit",
+      "lng": -75.1998045,
+      "lat": 39.9618781,
+      "coordinates": [
+        -75.1998045,
+        39.9618781
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807117",
+          "url": "https://www.openstreetmap.org/node/7206807117"
+        },
+        {
+          "id": "node/7206807129",
+          "url": "https://www.openstreetmap.org/node/7206807129"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807121",
+      "name": "Lancaster Avenue & Spring Garden Street",
+      "category": "transit",
+      "lng": -75.200479,
+      "lat": 39.9620519,
+      "coordinates": [
+        -75.200479,
+        39.9620519
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807121",
+          "url": "https://www.openstreetmap.org/node/7206807121"
+        },
+        {
+          "id": "node/7206807128",
+          "url": "https://www.openstreetmap.org/node/7206807128"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206807116",
+      "name": "Lancaster Avenue & Wallace Street",
+      "category": "transit",
+      "lng": -75.203328,
+      "lat": 39.963868,
+      "coordinates": [
+        -75.203328,
+        39.963868
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206807116",
+          "url": "https://www.openstreetmap.org/node/7206807116"
+        },
+        {
+          "id": "node/7206807122",
+          "url": "https://www.openstreetmap.org/node/7206807122"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732691176",
+      "name": "Lancaster Avenue & Westminster Avenue",
+      "category": "transit",
+      "lng": -75.2123126,
+      "lat": 39.9693633,
+      "coordinates": [
+        -75.2123126,
+        39.9693633
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732691176",
+          "url": "https://www.openstreetmap.org/node/7732691176"
+        },
+        {
+          "id": "node/7732691177",
+          "url": "https://www.openstreetmap.org/node/7732691177"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732691172",
+      "name": "Lancaster Avenue & Wyalusing Avenue",
+      "category": "transit",
+      "lng": -75.2151868,
+      "lat": 39.9710469,
+      "coordinates": [
+        -75.2151868,
+        39.9710469
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732691172",
+          "url": "https://www.openstreetmap.org/node/7732691172"
+        },
+        {
+          "id": "node/7732691175",
+          "url": "https://www.openstreetmap.org/node/7732691175"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7732691173",
+      "name": "Lancaster Avenue & Wyalusing Avenue",
+      "category": "transit",
+      "lng": -75.2144594,
+      "lat": 39.9706598,
+      "coordinates": [
+        -75.2144594,
+        39.9706598
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7732691173",
+          "url": "https://www.openstreetmap.org/node/7732691173"
+        },
+        {
+          "id": "node/7732691174",
+          "url": "https://www.openstreetmap.org/node/7732691174"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-3559047819",
+      "name": "Market St & 39th St",
+      "category": "transit",
+      "lng": -75.1993889,
+      "lat": 39.9569467,
+      "coordinates": [
+        -75.1993889,
+        39.9569467
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/3559047819",
+          "url": "https://www.openstreetmap.org/node/3559047819"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "SEPTA",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7977031970",
+      "name": "Market Street & Schuykill Avenue",
+      "category": "transit",
+      "lng": -75.1815737,
+      "lat": 39.9547182,
+      "coordinates": [
+        -75.1815737,
+        39.9547182
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7977031970",
+          "url": "https://www.openstreetmap.org/node/7977031970"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-10316885647",
+      "name": "Megabus",
+      "category": "transit",
+      "lng": -75.181964,
+      "lat": 39.9527289,
+      "coordinates": [
+        -75.181964,
+        39.9527289
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/10316885647",
+          "url": "https://www.openstreetmap.org/node/10316885647"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "bus_station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Megabus",
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-360474334",
+      "name": "Penn Medicine",
+      "category": "transit",
+      "lng": -75.1903505,
+      "lat": 39.9478543,
+      "coordinates": [
+        -75.1903505,
+        39.9478543
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/360474334",
+          "url": "https://www.openstreetmap.org/node/360474334"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-6097540131",
+      "name": "Philadelphia 30th Street Station",
+      "category": "transit",
+      "lng": -75.1819051,
+      "lat": 39.9559304,
+      "coordinates": [
+        -75.1819051,
+        39.9559304
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/6097540131",
+          "url": "https://www.openstreetmap.org/node/6097540131"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "station",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Amtrak",
+      "access": null,
+      "network": "Amtrak;SEPTA;NJ Transit"
+    },
+    {
+      "id": "osm-node-1015342938",
+      "name": "Philadelphia Museum of Art",
+      "category": "transit",
+      "lng": -75.1820774,
+      "lat": 39.9665019,
+      "coordinates": [
+        -75.1820774,
+        39.9665019
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/1015342938",
+          "url": "https://www.openstreetmap.org/node/1015342938"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-8110318655",
+      "name": "Route 15",
+      "category": "transit",
+      "lng": -75.1852754,
+      "lat": 39.9747451,
+      "coordinates": [
+        -75.1852754,
+        39.9747451
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/8110318655",
+          "url": "https://www.openstreetmap.org/node/8110318655"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": null,
+      "access": null,
+      "network": null
+    },
+    {
+      "id": "osm-node-7206871360",
+      "name": "Woodland Avenue & 42nd Street",
+      "category": "transit",
+      "lng": -75.2068582,
+      "lat": 39.9470587,
+      "coordinates": [
+        -75.2068582,
+        39.9470587
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871360",
+          "url": "https://www.openstreetmap.org/node/7206871360"
+        },
+        {
+          "id": "node/7206871363",
+          "url": "https://www.openstreetmap.org/node/7206871363"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871361",
+      "name": "Woodland Avenue & 42nd Street",
+      "category": "transit",
+      "lng": -75.2071519,
+      "lat": 39.9466289,
+      "coordinates": [
+        -75.2071519,
+        39.9466289
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871361",
+          "url": "https://www.openstreetmap.org/node/7206871361"
+        },
+        {
+          "id": "node/7206871362",
+          "url": "https://www.openstreetmap.org/node/7206871362"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871344",
+      "name": "Woodland Avenue & 43rd Street",
+      "category": "transit",
+      "lng": -75.2082673,
+      "lat": 39.9458382,
+      "coordinates": [
+        -75.2082673,
+        39.9458382
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871344",
+          "url": "https://www.openstreetmap.org/node/7206871344"
+        },
+        {
+          "id": "node/7206871351",
+          "url": "https://www.openstreetmap.org/node/7206871351"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871339",
+      "name": "Woodland Avenue & 45th Street",
+      "category": "transit",
+      "lng": -75.2086926,
+      "lat": 39.9452924,
+      "coordinates": [
+        -75.2086926,
+        39.9452924
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871339",
+          "url": "https://www.openstreetmap.org/node/7206871339"
+        },
+        {
+          "id": "node/7206871350",
+          "url": "https://www.openstreetmap.org/node/7206871350"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871338",
+      "name": "Woodland Avenue & 46th Street",
+      "category": "transit",
+      "lng": -75.2097875,
+      "lat": 39.9442969,
+      "coordinates": [
+        -75.2097875,
+        39.9442969
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871338",
+          "url": "https://www.openstreetmap.org/node/7206871338"
+        },
+        {
+          "id": "node/7206871343",
+          "url": "https://www.openstreetmap.org/node/7206871343"
+        },
+        {
+          "id": "node/7206871353",
+          "url": "https://www.openstreetmap.org/node/7206871353"
+        },
+        {
+          "id": "node/7206871354",
+          "url": "https://www.openstreetmap.org/node/7206871354"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-3216665326",
+      "name": "Woodland Avenue & 48th Street",
+      "category": "transit",
+      "lng": -75.2115704,
+      "lat": 39.9423296,
+      "coordinates": [
+        -75.2115704,
+        39.9423296
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/3216665326",
+          "url": "https://www.openstreetmap.org/node/3216665326"
+        },
+        {
+          "id": "node/7206871345",
+          "url": "https://www.openstreetmap.org/node/7206871345"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871340",
+      "name": "Woodland Avenue & 48th Street",
+      "category": "transit",
+      "lng": -75.2117575,
+      "lat": 39.9418989,
+      "coordinates": [
+        -75.2117575,
+        39.9418989
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871340",
+          "url": "https://www.openstreetmap.org/node/7206871340"
+        },
+        {
+          "id": "node/7206871352",
+          "url": "https://www.openstreetmap.org/node/7206871352"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-3215363199",
+      "name": "Woodland Avenue & 49th Street",
+      "category": "transit",
+      "lng": -75.2127208,
+      "lat": 39.9407516,
+      "coordinates": [
+        -75.2127208,
+        39.9407516
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/3215363199",
+          "url": "https://www.openstreetmap.org/node/3215363199"
+        },
+        {
+          "id": "node/7206871337",
+          "url": "https://www.openstreetmap.org/node/7206871337"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "tram_stop",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871341",
+      "name": "Woodland Avenue & 49th Street",
+      "category": "transit",
+      "lng": -75.2125187,
+      "lat": 39.9410365,
+      "coordinates": [
+        -75.2125187,
+        39.9410365
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871341",
+          "url": "https://www.openstreetmap.org/node/7206871341"
+        },
+        {
+          "id": "node/7206871349",
+          "url": "https://www.openstreetmap.org/node/7206871349"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    },
+    {
+      "id": "osm-node-7206871342",
+      "name": "Woodland Avenue & 50th Street",
+      "category": "transit",
+      "lng": -75.2137826,
+      "lat": 39.9401178,
+      "coordinates": [
+        -75.2137826,
+        39.9401178
+      ],
+      "coordinateType": "mapped_point",
+      "source": "OpenStreetMap",
+      "sources": [
+        {
+          "id": "node/7206871342",
+          "url": "https://www.openstreetmap.org/node/7206871342"
+        },
+        {
+          "id": "node/7206871346",
+          "url": "https://www.openstreetmap.org/node/7206871346"
+        }
+      ],
+      "retrievedAt": "2026-11-05T00:21:11.683Z",
+      "subtype": "platform",
+      "address": null,
+      "website": null,
+      "openingHours": null,
+      "operator": "Southeastern Pennsylvania Transportation Authority",
+      "access": null,
+      "network": "SEPTA"
+    }
+  ]
+}

@@ -1,0 +1,991 @@
+{
+  "schemaVersion": 1,
+  "provider": "FOSSGIS OSRM walking",
+  "source": "https://routing.openstreetmap.de/about.html",
+  "retrievedAt": "2026-11-05T00:22:07.644Z",
+  "poiSnapshotRetrievedAt": "2026-11-05T00:21:11.683Z",
+  "candidateSelection": "Nearest POI in each category by straight-line distance; this is not a search for the fastest walking destination.",
+  "limitations": [
+    "Sample housing coordinates are not verified entrances.",
+    "POI area features may be represented by bounding-box centers.",
+    "Only the nearest straight-line candidate per category is routed, not all POIs.",
+    "Grocery includes convenience stores; public access and operating status are not verified.",
+    "Missing routes have no estimated substitute."
+  ],
+  "byOrigin": {
+    "-75.20836,39.95658": {
+      "grocery": {
+        "category": "grocery",
+        "poiId": "osm-node-12229802254",
+        "poiName": "Grocery Outlet",
+        "poiCoordinates": [
+          -75.2090242,
+          39.9566164
+        ],
+        "start": [
+          -75.20836,
+          39.95658
+        ],
+        "distanceMeters": 75.8,
+        "durationSeconds": 60.7,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:08.028Z",
+        "snappedWaypoints": [
+          [
+            -75.208333,
+            39.956577
+          ],
+          [
+            -75.20903,
+            39.956593
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "pharmacy": {
+        "category": "pharmacy",
+        "poiId": "osm-way-1255447601",
+        "poiName": "Aspire Pharmacy",
+        "poiCoordinates": [
+          -75.209662,
+          39.9539866
+        ],
+        "start": [
+          -75.20836,
+          39.95658
+        ],
+        "distanceMeters": 379.7,
+        "durationSeconds": 303.9,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:08.867Z",
+        "snappedWaypoints": [
+          [
+            -75.208333,
+            39.956577
+          ],
+          [
+            -75.209681,
+            39.953891
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "park": {
+        "category": "park",
+        "poiId": "osm-way-743695066",
+        "poiName": "Spruce Hill Bird Sanctuary",
+        "poiCoordinates": [
+          -75.2125765,
+          39.9537278
+        ],
+        "start": [
+          -75.20836,
+          39.95658
+        ],
+        "distanceMeters": 746.8,
+        "durationSeconds": 597.2,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:09.970Z",
+        "snappedWaypoints": [
+          [
+            -75.208333,
+            39.956577
+          ],
+          [
+            -75.212597,
+            39.953789
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "gym": {
+        "category": "gym",
+        "poiId": "osm-way-1255447611",
+        "poiName": "Everybody Movement & Wellness",
+        "poiCoordinates": [
+          -75.2095797,
+          39.9540337
+        ],
+        "start": [
+          -75.20836,
+          39.95658
+        ],
+        "distanceMeters": 373.6,
+        "durationSeconds": 299,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:11.073Z",
+        "snappedWaypoints": [
+          [
+            -75.208333,
+            39.956577
+          ],
+          [
+            -75.20961,
+            39.953883
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "transit": {
+        "category": "transit",
+        "poiId": "osm-node-6596209453",
+        "poiName": "938",
+        "poiCoordinates": [
+          -75.213994,
+          39.9584002
+        ],
+        "start": [
+          -75.20836,
+          39.95658
+        ],
+        "distanceMeters": 656.5,
+        "durationSeconds": 525,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:12.189Z",
+        "snappedWaypoints": [
+          [
+            -75.208333,
+            39.956577
+          ],
+          [
+            -75.213987,
+            39.958399
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      }
+    },
+    "-75.20695,39.95643": {
+      "grocery": {
+        "category": "grocery",
+        "poiId": "osm-way-1091278771",
+        "poiName": "Alrayyan Food Market",
+        "poiCoordinates": [
+          -75.208366,
+          39.9554502
+        ],
+        "start": [
+          -75.20695,
+          39.95643
+        ],
+        "distanceMeters": 236.1,
+        "durationSeconds": 188.8,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:13.290Z",
+        "snappedWaypoints": [
+          [
+            -75.206975,
+            39.95631
+          ],
+          [
+            -75.208342,
+            39.955563
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "pharmacy": {
+        "category": "pharmacy",
+        "poiId": "osm-way-1255447601",
+        "poiName": "Aspire Pharmacy",
+        "poiCoordinates": [
+          -75.209662,
+          39.9539866
+        ],
+        "start": [
+          -75.20695,
+          39.95643
+        ],
+        "distanceMeters": 487.1,
+        "durationSeconds": 389.9,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:14.397Z",
+        "snappedWaypoints": [
+          [
+            -75.206975,
+            39.95631
+          ],
+          [
+            -75.209681,
+            39.953891
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "park": {
+        "category": "park",
+        "poiId": "osm-way-743695066",
+        "poiName": "Spruce Hill Bird Sanctuary",
+        "poiCoordinates": [
+          -75.2125765,
+          39.9537278
+        ],
+        "start": [
+          -75.20695,
+          39.95643
+        ],
+        "distanceMeters": 854,
+        "durationSeconds": 683,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:15.505Z",
+        "snappedWaypoints": [
+          [
+            -75.206975,
+            39.95631
+          ],
+          [
+            -75.212597,
+            39.953789
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "gym": {
+        "category": "gym",
+        "poiId": "osm-way-1255447611",
+        "poiName": "Everybody Movement & Wellness",
+        "poiCoordinates": [
+          -75.2095797,
+          39.9540337
+        ],
+        "start": [
+          -75.20695,
+          39.95643
+        ],
+        "distanceMeters": 480.9,
+        "durationSeconds": 385,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:16.605Z",
+        "snappedWaypoints": [
+          [
+            -75.206975,
+            39.95631
+          ],
+          [
+            -75.20961,
+            39.953883
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "transit": {
+        "category": "transit",
+        "poiId": "osm-node-7204646235",
+        "poiName": "40th Street & Market Street",
+        "poiCoordinates": [
+          -75.2020016,
+          39.9573689
+        ],
+        "start": [
+          -75.20695,
+          39.95643
+        ],
+        "distanceMeters": 583,
+        "durationSeconds": 466.3,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:17.710Z",
+        "snappedWaypoints": [
+          [
+            -75.206975,
+            39.95631
+          ],
+          [
+            -75.202003,
+            39.957369
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      }
+    },
+    "-75.19469,39.9542": {
+      "grocery": {
+        "category": "grocery",
+        "poiId": "osm-node-2700422417",
+        "poiName": "Wawa",
+        "poiCoordinates": [
+          -75.1949278,
+          39.9545647
+        ],
+        "start": [
+          -75.19469,
+          39.9542
+        ],
+        "distanceMeters": 74.8,
+        "durationSeconds": 59.9,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:18.827Z",
+        "snappedWaypoints": [
+          [
+            -75.194651,
+            39.954196
+          ],
+          [
+            -75.194913,
+            39.954643
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "pharmacy": {
+        "category": "pharmacy",
+        "poiId": "osm-node-3595418884",
+        "poiName": "CVS Pharmacy",
+        "poiCoordinates": [
+          -75.1928078,
+          39.9531422
+        ],
+        "start": [
+          -75.19469,
+          39.9542
+        ],
+        "distanceMeters": 267,
+        "durationSeconds": 213.6,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:19.938Z",
+        "snappedWaypoints": [
+          [
+            -75.194651,
+            39.954196
+          ],
+          [
+            -75.192836,
+            39.953004
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "park": {
+        "category": "park",
+        "poiId": "osm-way-148162170",
+        "poiName": "Blanche Levy Park",
+        "poiCoordinates": [
+          -75.1940734,
+          39.9520285
+        ],
+        "start": [
+          -75.19469,
+          39.9542
+        ],
+        "distanceMeters": 329.6,
+        "durationSeconds": 263.6,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:21.049Z",
+        "snappedWaypoints": [
+          [
+            -75.194651,
+            39.954196
+          ],
+          [
+            -75.194079,
+            39.952038
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "gym": {
+        "category": "gym",
+        "poiId": "osm-node-3527098193",
+        "poiName": "Monarch Yoga",
+        "poiCoordinates": [
+          -75.1931992,
+          39.9530688
+        ],
+        "start": [
+          -75.19469,
+          39.9542
+        ],
+        "distanceMeters": 235.3,
+        "durationSeconds": 188.2,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:22.160Z",
+        "snappedWaypoints": [
+          [
+            -75.194651,
+            39.954196
+          ],
+          [
+            -75.193203,
+            39.953048
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "transit": {
+        "category": "transit",
+        "poiId": "osm-node-651014199",
+        "poiName": "36th St",
+        "poiCoordinates": [
+          -75.1946812,
+          39.9540127
+        ],
+        "start": [
+          -75.19469,
+          39.9542
+        ],
+        "distanceMeters": 20.4,
+        "durationSeconds": 16.4,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:23.263Z",
+        "snappedWaypoints": [
+          [
+            -75.194651,
+            39.954196
+          ],
+          [
+            -75.194686,
+            39.954014
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      }
+    },
+    "-75.19305,39.96139": {
+      "grocery": {
+        "category": "grocery",
+        "poiId": "osm-node-666303125",
+        "poiName": "Northside Market",
+        "poiCoordinates": [
+          -75.1903547,
+          39.9589394
+        ],
+        "start": [
+          -75.19305,
+          39.96139
+        ],
+        "distanceMeters": 497.2,
+        "durationSeconds": 397.8,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:24.371Z",
+        "snappedWaypoints": [
+          [
+            -75.193036,
+            39.961303
+          ],
+          [
+            -75.190347,
+            39.958782
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "pharmacy": {
+        "category": "pharmacy",
+        "poiId": "osm-node-10006849491",
+        "poiName": "Walgreens",
+        "poiCoordinates": [
+          -75.193818,
+          39.9559618
+        ],
+        "start": [
+          -75.19305,
+          39.96139
+        ],
+        "distanceMeters": 684.6,
+        "durationSeconds": 547.7,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:25.488Z",
+        "snappedWaypoints": [
+          [
+            -75.193036,
+            39.961303
+          ],
+          [
+            -75.193804,
+            39.956028
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "park": {
+        "category": "park",
+        "poiId": "osm-way-753358501",
+        "poiName": "James Lee Wright Recreation Center",
+        "poiCoordinates": [
+          -75.1911154,
+          39.9638531
+        ],
+        "start": [
+          -75.19305,
+          39.96139
+        ],
+        "distanceMeters": 468.2,
+        "durationSeconds": 374.5,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:26.590Z",
+        "snappedWaypoints": [
+          [
+            -75.193036,
+            39.961303
+          ],
+          [
+            -75.191149,
+            39.964041
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "gym": {
+        "category": "gym",
+        "poiId": "osm-node-11018100444",
+        "poiName": "Drexel Recreation Center",
+        "poiCoordinates": [
+          -75.1898855,
+          39.9559861
+        ],
+        "start": [
+          -75.19305,
+          39.96139
+        ],
+        "distanceMeters": 775.9,
+        "durationSeconds": 620.5,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:27.690Z",
+        "snappedWaypoints": [
+          [
+            -75.193036,
+            39.961303
+          ],
+          [
+            -75.189728,
+            39.955989
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "transit": {
+        "category": "transit",
+        "poiId": "osm-node-7206807115",
+        "poiName": "Lancaster Avenue & Powelton Avenue",
+        "poiCoordinates": [
+          -75.1954124,
+          39.9595915
+        ],
+        "start": [
+          -75.19305,
+          39.96139
+        ],
+        "distanceMeters": 395.9,
+        "durationSeconds": 316.5,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:28.800Z",
+        "snappedWaypoints": [
+          [
+            -75.193036,
+            39.961303
+          ],
+          [
+            -75.195414,
+            39.959589
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      }
+    },
+    "-75.20504,39.95604": {
+      "grocery": {
+        "category": "grocery",
+        "poiId": "osm-way-474961420",
+        "poiName": "7-Eleven",
+        "poiCoordinates": [
+          -75.2067402,
+          39.954908
+        ],
+        "start": [
+          -75.20504,
+          39.95604
+        ],
+        "distanceMeters": 264.3,
+        "durationSeconds": 213.6,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:29.904Z",
+        "snappedWaypoints": [
+          [
+            -75.205042,
+            39.95604
+          ],
+          [
+            -75.206646,
+            39.954972
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "pharmacy": {
+        "category": "pharmacy",
+        "poiId": "osm-node-2106552031",
+        "poiName": "CVS Pharmacy",
+        "poiCoordinates": [
+          -75.2019581,
+          39.9541781
+        ],
+        "start": [
+          -75.20504,
+          39.95604
+        ],
+        "distanceMeters": 465,
+        "durationSeconds": 371.8,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:31.007Z",
+        "snappedWaypoints": [
+          [
+            -75.205042,
+            39.95604
+          ],
+          [
+            -75.201967,
+            39.954137
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "park": {
+        "category": "park",
+        "poiId": "osm-way-748810756",
+        "poiName": "Hamilton Field",
+        "poiCoordinates": [
+          -75.2008782,
+          39.9526301
+        ],
+        "start": [
+          -75.20504,
+          39.95604
+        ],
+        "distanceMeters": 721.4,
+        "durationSeconds": 576.9,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:32.116Z",
+        "snappedWaypoints": [
+          [
+            -75.205042,
+            39.95604
+          ],
+          [
+            -75.200857,
+            39.952731
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "gym": {
+        "category": "gym",
+        "poiId": "osm-way-1255447611",
+        "poiName": "Everybody Movement & Wellness",
+        "poiCoordinates": [
+          -75.2095797,
+          39.9540337
+        ],
+        "start": [
+          -75.20504,
+          39.95604
+        ],
+        "distanceMeters": 652.5,
+        "durationSeconds": 522.2,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:33.221Z",
+        "snappedWaypoints": [
+          [
+            -75.205042,
+            39.95604
+          ],
+          [
+            -75.20961,
+            39.953883
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "transit": {
+        "category": "transit",
+        "poiId": "osm-node-7204646235",
+        "poiName": "40th Street & Market Street",
+        "poiCoordinates": [
+          -75.2020016,
+          39.9573689
+        ],
+        "start": [
+          -75.20504,
+          39.95604
+        ],
+        "distanceMeters": 421,
+        "durationSeconds": 336.6,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:34.332Z",
+        "snappedWaypoints": [
+          [
+            -75.205042,
+            39.95604
+          ],
+          [
+            -75.202003,
+            39.957369
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      }
+    },
+    "-75.20898,39.95675": {
+      "pharmacy": {
+        "category": "pharmacy",
+        "poiId": "osm-way-1255447601",
+        "poiName": "Aspire Pharmacy",
+        "poiCoordinates": [
+          -75.209662,
+          39.9539866
+        ],
+        "start": [
+          -75.20898,
+          39.95675
+        ],
+        "distanceMeters": 401.4,
+        "durationSeconds": 323.4,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:36.537Z",
+        "snappedWaypoints": [
+          [
+            -75.20903,
+            39.956593
+          ],
+          [
+            -75.209681,
+            39.953891
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "park": {
+        "category": "park",
+        "poiId": "osm-way-743205247",
+        "poiName": "Max Paul Park",
+        "poiCoordinates": [
+          -75.2135572,
+          39.958343
+        ],
+        "start": [
+          -75.20898,
+          39.95675
+        ],
+        "distanceMeters": 623.8,
+        "durationSeconds": 500.7,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:37.654Z",
+        "snappedWaypoints": [
+          [
+            -75.20903,
+            39.956593
+          ],
+          [
+            -75.213712,
+            39.9584
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "gym": {
+        "category": "gym",
+        "poiId": "osm-way-1255447611",
+        "poiName": "Everybody Movement & Wellness",
+        "poiCoordinates": [
+          -75.2095797,
+          39.9540337
+        ],
+        "start": [
+          -75.20898,
+          39.95675
+        ],
+        "distanceMeters": 395.3,
+        "durationSeconds": 318.5,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:38.766Z",
+        "snappedWaypoints": [
+          [
+            -75.20903,
+            39.956593
+          ],
+          [
+            -75.20961,
+            39.953883
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "transit": {
+        "category": "transit",
+        "poiId": "osm-node-6596209453",
+        "poiName": "938",
+        "poiCoordinates": [
+          -75.213994,
+          39.9584002
+        ],
+        "start": [
+          -75.20898,
+          39.95675
+        ],
+        "distanceMeters": 588.4,
+        "durationSeconds": 472.5,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:39.870Z",
+        "snappedWaypoints": [
+          [
+            -75.20903,
+            39.956593
+          ],
+          [
+            -75.213987,
+            39.958399
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      }
+    },
+    "-75.20181,39.95573": {
+      "grocery": {
+        "category": "grocery",
+        "poiId": "osm-node-9995193085",
+        "poiName": "Acme",
+        "poiCoordinates": [
+          -75.2028208,
+          39.9544621
+        ],
+        "start": [
+          -75.20181,
+          39.95573
+        ],
+        "distanceMeters": 190.1,
+        "durationSeconds": 152,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:40.992Z",
+        "snappedWaypoints": [
+          [
+            -75.201823,
+            39.95567
+          ],
+          [
+            -75.202626,
+            39.954435
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "pharmacy": {
+        "category": "pharmacy",
+        "poiId": "osm-node-2106552031",
+        "poiName": "CVS Pharmacy",
+        "poiCoordinates": [
+          -75.2019581,
+          39.9541781
+        ],
+        "start": [
+          -75.20181,
+          39.95573
+        ],
+        "distanceMeters": 242.7,
+        "durationSeconds": 194.2,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:42.098Z",
+        "snappedWaypoints": [
+          [
+            -75.201823,
+            39.95567
+          ],
+          [
+            -75.201967,
+            39.954137
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "park": {
+        "category": "park",
+        "poiId": "osm-way-748810756",
+        "poiName": "Hamilton Field",
+        "poiCoordinates": [
+          -75.2008782,
+          39.9526301
+        ],
+        "start": [
+          -75.20181,
+          39.95573
+        ],
+        "distanceMeters": 500.1,
+        "durationSeconds": 402.1,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:43.208Z",
+        "snappedWaypoints": [
+          [
+            -75.201823,
+            39.95567
+          ],
+          [
+            -75.200857,
+            39.952731
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "gym": {
+        "category": "gym",
+        "poiId": "osm-way-35918075",
+        "poiName": "Pottruck Health and Fitness Center",
+        "poiCoordinates": [
+          -75.1971166,
+          39.9538427
+        ],
+        "start": [
+          -75.20181,
+          39.95573
+        ],
+        "distanceMeters": 590.2,
+        "durationSeconds": 471.9,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:44.305Z",
+        "snappedWaypoints": [
+          [
+            -75.201823,
+            39.95567
+          ],
+          [
+            -75.19677,
+            39.9538
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      },
+      "transit": {
+        "category": "transit",
+        "poiId": "osm-node-5372108003",
+        "poiName": "40th Street",
+        "poiCoordinates": [
+          -75.2018813,
+          39.9572587
+        ],
+        "start": [
+          -75.20181,
+          39.95573
+        ],
+        "distanceMeters": 206.9,
+        "durationSeconds": 165.6,
+        "provider": "FOSSGIS OSRM walking",
+        "retrievedAt": "2026-11-05T00:22:45.410Z",
+        "snappedWaypoints": [
+          [
+            -75.201823,
+            39.95567
+          ],
+          [
+            -75.201877,
+            39.957276
+          ]
+        ],
+        "candidateSelection": "nearest_straight_line"
+      }
+    }
+  },
+  "failures": [
+    {
+      "origin": "-75.20898,39.95675",
+      "category": "grocery",
+      "poiId": "osm-node-12229802254",
+      "reason": "Endpoints snapped to the same network point; entrance access unresolved"
+    }
+  ]
+}

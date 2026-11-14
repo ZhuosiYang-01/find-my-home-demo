@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173d33"><meta name="description" content="Find My Home helps you compare housing costs, walking access and everyday amenities in one interactive rental report.">
+  <title>Find My Home | Rental research, mapped</title>
+  <link rel="stylesheet" href="assets/fonts.css"><link rel="stylesheet" href="assets/maplibre-gl.css"><link rel="stylesheet" href="style.css">
+  <script src="assets/maplibre-gl.js" defer></script><script type="module" src="app.js"></script>
+</head>
+<body class="map-only">
+<a href="#report" class="skip-link">Skip to report</a>
+<nav class="rail" aria-label="Main navigation">
+  <a class="brand-symbol" href="./" aria-label="Find My Home"><svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 16 18 4l15 12M7 13v19h22V13M13 32V21h10v11M13 13h3v4h-3zm8 0h3v4h-3z"/></svg></a>
+  <button class="nav-item active" data-view="report" title="Research report"><span data-icon="report"></span><span>Report</span></button>
+  <button class="nav-item" data-view="compare" title="Compare selected homes"><span data-icon="compare"></span><span>Compare</span><small id="compare-nav-count" hidden>0</small></button>
+  <button class="nav-item" data-view="saved" title="Saved reports"><span data-icon="bookmark"></span><span>Saved</span></button>
+  <button class="nav-item rail-bottom" id="about-button" title="About this prototype"><span data-icon="info"></span><span>About</span></button>
+</nav>
+<div class="app-shell">
+  <header class="topbar">
+    <a class="wordmark" href="./">Find My Home<span class="wordmark-dot">.</span></a>
+    <button class="location-button" id="location-button" aria-label="Commute settings"><span data-icon="pin"></span><span>Commute settings</span></button>
+    <div class="header-actions"><span class="demo-badge">Interactive demo</span><button class="primary small" id="save-button"><span data-icon="bookmark"></span><span>Save report</span></button></div>
+  </header>
+  <div class="workspace">
+    <main id="report" class="report-panel" tabindex="-1">
+      <div class="report-heading"><div><h1>Explore nearby apartments</h1><p>Apply filters or describe your search in chat to build a report.</p></div><button class="text-button data-link" id="data-button">A dated snapshot, openly sourced<span data-icon="arrow"></span></button></div>
+      <div class="brief-bar" aria-label="Housing filters">
+        <button id="budget-brief"><span data-icon="wallet"></span><span>Budget <strong id="brief-budget">no limit</strong></span></button>
+        <button class="brief-toggle" data-key="furnished"><span data-icon="bed"></span><span>Furniture <strong id="brief-furnished">optional</strong></span></button>
+        <button class="brief-toggle" data-key="laundry"><span data-icon="laundry"></span><span>In-unit laundry <strong id="brief-laundry">optional</strong></span></button>
+        <button id="walk-brief"><span data-icon="walk"></span><span><span id="brief-destination">To Weitzman Hall</span> <strong id="brief-walk">no limit</strong></span></button>
+        <button class="brief-edit" id="filter-toggle" aria-expanded="false" aria-controls="filters"><span data-icon="sliders"></span><span>Filters</span></button>
+      </div>
+      <form id="filters" class="filters" hidden>
+        <div class="filter-heading"><h2>Your requirements</h2><span>Hard constraints narrow the search. Unknown facts stay unverified.</span></div>
+        <div class="filter-grid">
+          <label>Total monthly budget ($)<input id="budget" name="budget" type="number" min="100" max="100000" step="1" placeholder="No limit"></label>
+          <label>Housing type<select id="housing-type"><option value="any">Any layout</option><option value="studio">Studio</option><option value="1b1b">1 bedroom</option><option value="2b">2 bedrooms</option><option value="3b">3 bedrooms</option><option value="4b">4+ bedrooms</option></select></label>
+          <label>Maximum walk (min)<input id="max-walk" type="number" min="1" max="180" placeholder="No limit"></label>
+          <label>Furniture<select id="furnished"><option value="true">Required</option><option value="false">Optional</option></select></label>
+          <label>In-unit laundry<select id="laundry"><option value="true">Required</option><option value="false">Optional</option></select></label>
+          <label>Living arrangement<select id="occupancy"><option value="any">Any arrangement</option><option value="entire">Entire home</option><option value="private-room">Private room in shared home</option><option value="shared-room">Shared bedroom</option></select></label>
+          <label>Move-in date<input id="move-in" type="date"></label>
+          <label>Lease length (months)<input id="lease-months" type="number" min="1" max="60" placeholder="Flexible"></label>
+          <label>Minimum area (sq ft)<input id="min-area" type="number" min="0" max="10000" step="10" placeholder="No minimum"></label>
+          <label>Pets<select id="pets"><option value="false">No requirement</option><option value="true">Must allow pets</option></select></label>
+          <label>Parking<select id="parking"><option value="false">No requirement</option><option value="true">Required</option></select></label>
+          <label>Unverified information<select id="include-unverified"><option value="true">Include and flag for checking</option><option value="false">Show fully confirmed only</option></select></label>
+          <div class="filter-action"><button class="primary" id="apply-filters" type="submit">Apply<span data-icon="arrow"></span></button></div>
+        </div>
+        <p class="field-note">Search availability depends on current web sources. Unknown occupancy, lease terms, pet policies and parking stay unverified. Express everyday-access preferences in chat.</p>
+      </form>
+      <div id="search-progress" class="search-progress" role="status" hidden></div>
+      <div id="queued-search-status" class="field-note" role="status" hidden></div>
+      <div id="discovery-status" class="discovery-status" role="status" hidden><span id="discovery-message"></span> <button class="text-button" id="retry-discovery" hidden>Retry</button></div>
+      <div id="live-research-status" class="live-research-status" role="status" hidden></div>
+      <section id="research-view">
+        <div class="map-frame">
+          <div id="map" role="region" aria-label="Interactive housing map"></div>
+          <div class="map-title"><span data-icon="layers"></span><span><span id="map-area">University City</span><span class="map-subtitle">Explore the neighborhood</span></span></div>
+          <div class="map-controls"><button id="map-3d" aria-pressed="true">3D buildings</button><button id="map-reset" title="Reset map view" aria-label="Reset map view"><span data-icon="expand"></span></button></div>
+          <div class="poi-controls" aria-label="Show nearby amenities"><button data-poi="none" class="active">Homes</button><button data-poi="grocery"><span data-icon="basket"></span>Groceries</button><button data-poi="park"><span data-icon="tree"></span>Parks</button><button data-poi="transit"><span data-icon="train"></span>Transit</button><button data-poi="pharmacy"><span data-icon="plus"></span>Pharmacies</button><button data-poi="gym"><span data-icon="gym"></span>Gyms</button></div>
+          <span id="map-route-status" class="map-route-status" role="status">Loading walking route…</span>
+          <span class="map-disclaimer">Map and POIs: OpenStreetMap snapshot. Routes: <a href="https://routing.openstreetmap.de/about.html" target="_blank" rel="noopener noreferrer">FOSSGIS OSRM</a>. Sample housing coordinates; unverified entrances. <a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">Fix the map</a></span>
+        </div>
+        <div id="discovery-sources"></div>
+        <div id="report-results"><div class="list-heading"><div><h2>Places worth a closer look</h2><p id="results-summary"></p></div><div class="list-actions"><button class="text-button" id="live-search-button">Search live listings<span data-icon="arrow"></span></button><button class="text-button" id="compare-button"><span data-icon="compare"></span>Compare <span id="compare-count">0</span></button><label class="sort-label"><span class="sr-only">Sort homes</span><select id="sort"><option value="fit">Preference fit</option><option value="price">Lowest starting cost</option><option value="walk">Shortest walk</option></select></label></div></div>
+        <div class="result-status"><span class="status-dot"></span><span id="verification-summary"></span><button class="text-button" id="evidence-help">How we handle uncertainty<span data-icon="info"></span></button></div>
+        <div id="property-list" aria-live="polite"></div>
+        <div id="live-search-evidence" class="live-search-evidence" hidden></div>
+        <button class="text-button excluded-toggle" id="excluded-toggle" aria-expanded="false">Show homes outside your requirements</button><div id="excluded-list" hidden></div></div>
+      </section>
+      <section id="compare-view" hidden><div class="section-heading"><div><h2>Compare your shortlist</h2><p>Read the tradeoffs together. Missing information stays visible.</p></div><button class="text-button" id="back-report">Back to report<span data-icon="arrow"></span></button></div><div id="comparison"></div></section>
+      <section id="saved-view" hidden><div class="section-heading"><div><h2>Your saved reports</h2><p>Saved in this browser, with the brief and evidence snapshot.</p></div></div><div id="saved-list"></div></section>
+      <footer class="report-footer"><span id="report-data-date">Research snapshot · November 2, 2026</span><div><button class="text-button" id="export-button"><span data-icon="download"></span>Export data</button><button class="text-button" id="print-button"><span data-icon="print"></span>Print report</button></div></footer>
+    </main>
+    <aside class="chat-panel" id="chat-panel" aria-label="Rental research conversation">
+      <div class="messages" id="messages" role="log" aria-live="polite" aria-label="Chat messages"><p class="chat-intro">Tell me where you'd like to live, your budget, preferred layout, move-in timing, and anything else that matters to you.</p></div>
+      <form id="chat-form" class="chat-form"><label for="chat-input" class="sr-only">Tell the assistant what to change</label><textarea id="chat-input" rows="2" maxlength="1000" placeholder="Describe your housing needs…" required></textarea><div class="composer-bottom"><button type="submit" id="send-button" aria-label="Send message"><span data-icon="send"></span></button></div></form>
+    </aside>
+  </div>
+</div>
+<div class="mobile-tabs" aria-label="Workspace panels"><button data-panel="report" class="active"><span data-icon="report"></span>Report</button><button data-panel="chat"><span data-icon="chat"></span>Chat</button></div>
+<dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><button class="dialog-close" id="detail-close" aria-label="Close details"><span data-icon="close"></span></button><div id="detail-content"></div></dialog>
+<div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>
