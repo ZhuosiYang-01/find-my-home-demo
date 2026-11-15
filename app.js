@@ -140,7 +140,6 @@ function renderSearchInfo(){
   status.hidden=!info||state.mapOnly;
   $('.report-heading h1').textContent=state.mapOnly?'Explore nearby apartments':'Your next chapter, mapped.';
   if(state.mapOnly){
-    $('.demo-badge').textContent='Map';
     $('.report-heading p').textContent='Apply filters or describe your search in chat to build a report.';
     $('.map-disclaimer').textContent='Apartment locations are based on published addresses. Map © OpenStreetMap contributors.';
     return;
@@ -150,13 +149,11 @@ function renderSearchInfo(){
     const unmapped=(state.catalog||[]).filter(p=>!Number.isFinite(p.lat)||!Number.isFinite(p.lng)).length;
     status.textContent=`Web research checked ${checked}. This search covers a limited set of sources. Availability and all-in costs are unconfirmed.${unmapped?' '+unmapped+' candidates need an address check before mapping.':''}`;
     $('#report-data-date').textContent='Web research · '+checked;
-    $('.demo-badge').textContent='Web research';
     $('.report-heading p').textContent='Current web-sourced rental candidates, with evidence and uncertainty.';
     $('#data-button').innerHTML='View research sources'+icon('arrow');
     $('.map-disclaimer').innerHTML='Map and POIs: OpenStreetMap snapshot. Routes: <a href="https://routing.openstreetmap.de/about.html" target="_blank" rel="noopener noreferrer">FOSSGIS OSRM</a>. Address-geocoded locations; entrances unverified. <a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">Fix the map</a>';
   }else{
     $('#report-data-date').textContent='Saved case study · November 2, 2026';
-    $('.demo-badge').textContent='Case study';
     $('.report-heading p').textContent='Housing research around the University of Pennsylvania.';
     $('#data-button').innerHTML='A dated snapshot, openly sourced'+icon('arrow');
     $('.map-disclaimer').innerHTML='Map and POIs: OpenStreetMap snapshot. Routes: <a href="https://routing.openstreetmap.de/about.html" target="_blank" rel="noopener noreferrer">FOSSGIS OSRM</a>. Sample housing coordinates; entrances unverified. <a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">Fix the map</a>';
@@ -423,10 +420,6 @@ if(pagesDemo){
   state.destination=defaultDestination;
   state.mapOnly=false;
   $('#location-button').onclick=()=>location.assign(liveSite);
-  const link=document.createElement('a');
-  link.href=liveSite;
-  link.textContent='Open live search and AI chat';
-  $('.header-actions').prepend(link);
   render();
 }else{
   discoverApartments();
